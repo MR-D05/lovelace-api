@@ -1,0 +1,50 @@
+Metrics computed for /home/user/Projects/Black-examples/black/src/black-streams-memory.ads
+containing package Black.Streams.Memory
+
+=== Code line metrics ===
+  all lines           : 32
+  code lines          : 27
+  comment lines       : 0
+  end-of-line comments: 0
+  comment percentage  : 0.00
+  blank lines         : 5
+
+Black.Streams.Memory (package - library item at lines  7: 32)
+
+=== Code line metrics ===
+   all lines           : 26
+   code lines          : 22
+   comment lines       : 0
+   end-of-line comments: 0
+   comment percentage  : 0.00
+   blank lines         : 4
+
+=== Element metrics ===
+   public types             : 1
+      including
+      private types   : 1
+   all type definitions     : 1
+   public subprograms       : 3
+   all statements           : 0
+   all declarations         : 15
+   maximal unit nesting     : 1
+   maximal construct nesting: 1
+   logical SLOC             : 15
+
+   Read (procedure at lines  10: 13)
+      all parameters           : 3
+         IN parameters         : 0
+         OUT parameters        : 2
+         IN OUT parameters     : 1
+
+   Write (procedure at lines  15: 17)
+      all parameters           : 2
+         IN parameters         : 1
+         OUT parameters        : 0
+         IN OUT parameters     : 1
+
+   Copy (function at lines  19: 20)
+      all parameters           : 1
+         IN parameters         : 1
+         OUT parameters        : 0
+         IN OUT parameters     : 0

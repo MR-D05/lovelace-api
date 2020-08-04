@@ -1,0 +1,40 @@
+[GENERATED OBJECT FILE]
+b__single_thread_server.o
+[PROJECT FILES]
+/home/user/Projects/Black-examples/black_examples.gpr
+20170415214405
+/home/user/Projects/Black-examples/ada_2005.gpr
+20170415214405
+[BOUND OBJECT FILES]
+/home/user/Projects/Black-examples/obj/gnat-sockets-convenience.o
+/home/user/Projects/Black-examples/obj/black.o
+/home/user/Projects/Black-examples/obj/black-http.o
+/home/user/Projects/Black-examples/obj/black-generic_optional.o
+/home/user/Projects/Black-examples/obj/black-mime_types.o
+/home/user/Projects/Black-examples/obj/black-optional_http_method.o
+/home/user/Projects/Black-examples/obj/black-optional_natural.o
+/home/user/Projects/Black-examples/obj/black-optional_string.o
+/home/user/Projects/Black-examples/obj/black-parameter.o
+/home/user/Projects/Black-examples/obj/black-parameter-vectors.o
+/home/user/Projects/Black-examples/obj/single_thread_server.o
+/home/user/Projects/Black-examples/obj/black-text_io.o
+/home/user/Projects/Black-examples/obj/black-response.o
+/home/user/Projects/Black-examples/obj/black-parsing.o
+/home/user/Projects/Black-examples/obj/hex_utilities.o
+/home/user/Projects/Black-examples/obj/url_utilities.o
+/home/user/Projects/Black-examples/obj/black-request.o
+[GENERATED SOURCE FILES]
+b__single_thread_server.ads
+b__single_thread_server.adb
+b__single_thread_server.ali
+[RESULTING OPTIONS]
+-L/home/user/Projects/Black-examples/obj/
+-L/home/user/Projects/Black-examples/obj/
+-L/opt/gnat/lib/aws/
+-L/opt/gnat/lib/aunit/
+-L/usr/local/lib/matreshka/league/
+-L/opt/gnat/lib/gcc/x86_64-pc-linux-gnu/4.9.4/adalib/
+-static
+-static-libgcc
+/opt/gnat/lib/gcc/x86_64-pc-linux-gnu/4.9.4/adalib/libgnat.a
+-ldl

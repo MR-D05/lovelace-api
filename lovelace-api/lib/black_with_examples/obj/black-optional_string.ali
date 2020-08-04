@@ -1,0 +1,120 @@
+V "GNAT Lib v2016"
+A -gnatwa
+A -O2
+A -Wall
+A -gnatA
+A -fstack-check=specific
+A -gnata
+A -gnato
+A -gnatf
+A -gnatwa
+A -gnatVa
+A -gnaty3
+A -gnatya
+A -gnatyb
+A -gnatyc
+A -gnatyd
+A -gnatye
+A -gnatyf
+A -gnatyh
+A -gnatyi
+A -gnatyk
+A -gnatyl
+A -gnatym
+A -gnatyn
+A -gnatyo
+A -gnatyO
+A -gnatyp
+A -gnatyr
+A -gnatys
+A -gnatyt
+A -gnatyu
+A -gnatyx
+A -gnatwe
+A -gnat2005
+A -mtune=generic
+A -march=x86-64
+P SS ZX
+
+RN
+RV NO_EXCEPTION_HANDLERS
+RV NO_EXCEPTION_PROPAGATION
+RV NO_EXCEPTIONS
+RV NO_IMPLICIT_CONDITIONALS
+RV NO_LOCAL_ALLOCATORS
+RV NO_NESTED_FINALIZATION
+RV NO_STANDARD_STORAGE_POOLS
+RV NO_DYNAMIC_SIZED_OBJECTS
+RV NO_IMPLEMENTATION_PRAGMAS
+RV SPARK_05
+
+U black.optional_string%b  black-optional_string.ads  ece93279 NE OO PK
+W ada%s			ada.ads			ada.ali
+W ada.exceptions%s	a-except.adb		a-except.ali
+W ada.strings%s		a-string.ads		a-string.ali
+W ada.strings.unbounded%s  a-strunb.adb		a-strunb.ali
+W ada.tags%s		a-tags.adb		a-tags.ali
+W black%s		black.ads		black.ali
+W black.generic_optional%s  black-generic_optional.adb  black-generic_optional.ali  AD
+W interfaces%s		interfac.ads		interfac.ali
+W system%s		system.ads		system.ali
+W system.secondary_stack%s  s-secsta.adb	s-secsta.ali
+W system.soft_links%s	s-soflin.adb		s-soflin.ali
+
+U black.optional_string%s  black-optional_string.ads  906c1870 EB NE OO PK
+W ada%s			ada.ads			ada.ali
+W ada.exceptions%s	a-except.adb		a-except.ali
+W ada.strings%s		a-string.ads		a-string.ali
+W ada.strings.unbounded%s  a-strunb.adb		a-strunb.ali
+W ada.tags%s		a-tags.adb		a-tags.ali
+W black%s		black.ads		black.ali
+W black.generic_optional%s  black-generic_optional.adb  black-generic_optional.ali  AD
+W system%s		system.ads		system.ali
+
+D ada.ads		20160516092928 3ffc8e18 ada%s
+D a-charac.ads		20160516092931 2d3ec45b ada.characters%s
+D a-chlat1.ads		20160516092930 66457d31 ada.characters.latin_1%s
+D a-except.ads		20160516092928 291912d5 ada.exceptions%s
+D a-finali.ads		20160516092931 bf4f806b ada.finalization%s
+D a-stream.ads		20160516092929 119b8fb3 ada.streams%s
+D a-string.ads		20160516092930 90ac6797 ada.strings%s
+D a-strmap.ads		20160516092930 e8bb714a ada.strings.maps%s
+D a-strunb.ads		20160516092928 3f91d4c5 ada.strings.unbounded%s
+D a-tags.ads		20160516092932 01f5e3ef ada.tags%s
+D a-unccon.ads		20160516092931 f9eb8f06 ada.unchecked_conversion%s
+D black.ads		20170415214444 96edd2a0 black%s
+D black-generic_optional.ads  20170415214444 d5f92c6c black.generic_optional%s
+D black-generic_optional.adb  20170415214444 f7c430e9 black.generic_optional%b
+D black-optional_string.ads  20170415214444 ece93279 black.optional_string%s
+D black-optional_string.ads  20170415214444 ece93279 black.optional_string%b
+D interfac.ads		20160516092928 5ab55268 interfaces%s
+D system.ads		20160516092929 6326c08a system%s
+D s-atocou.ads		20160516092932 b45c2d8d system.atomic_counters%s
+D s-exctab.ads		20160516092931 54135002 system.exception_table%s
+D s-finmas.ads		20160516092931 7811a767 system.finalization_masters%s
+D s-finroo.ads		20160516092931 4ff27390 system.finalization_root%s
+D s-parame.ads		20160516092932 7e2a0d7f system.parameters%s
+D s-secsta.ads		20160516092931 86a2856d system.secondary_stack%s
+D s-soflin.ads		20160516092929 14e1eb6c system.soft_links%s
+D s-stache.ads		20160516092932 a37c21ec system.stack_checking%s
+D s-stalib.ads		20160516092931 09bd3940 system.standard_library%s
+D s-stoele.ads		20160516092932 2dc34a04 system.storage_elements%s
+D s-stopoo.ads		20160516092928 b16154c2 system.storage_pools%s
+D s-stposu.ads		20160516092927 97a6219c system.storage_pools.subpools%s
+D s-stratt.ads		20160516092927 aedef97e system.stream_attributes%s
+D s-traent.ads		20160516092928 005bf670 system.traceback_entries%s
+D s-unstyp.ads		20160516092930 34867c83 system.unsigned_types%s
+X 1 ada.ads
+16K9*Ada 19e8 16|1r6 7r31
+X 7 a-string.ads
+16K13*Strings 35e16 16|1r10 7r35
+X 9 a-strunb.ads
+76K21*Unbounded 489e26 16|1w18 7r43
+79R9*Unbounded_String<5|43R9> 473e14 16|7r53
+X 12 black.ads
+1K9*Black 5e10 16|3r6 6r9 7r7
+X 13 black-generic_optional.ads
+4k15*Generic_Optional 21e27 16|3w12 7r13
+X 16 black-optional_string.ads
+6K15*Optional_String[13|4] 12|1k9
+

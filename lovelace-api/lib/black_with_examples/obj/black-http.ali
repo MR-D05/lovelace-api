@@ -1,0 +1,109 @@
+V "GNAT Lib v2016"
+A -gnatwa
+A -O2
+A -Wall
+A -gnatA
+A -fstack-check=specific
+A -gnata
+A -gnato
+A -gnatf
+A -gnatwa
+A -gnatVa
+A -gnaty3
+A -gnatya
+A -gnatyb
+A -gnatyc
+A -gnatyd
+A -gnatye
+A -gnatyf
+A -gnatyh
+A -gnatyi
+A -gnatyk
+A -gnatyl
+A -gnatym
+A -gnatyn
+A -gnatyo
+A -gnatyO
+A -gnatyp
+A -gnatyr
+A -gnatys
+A -gnatyt
+A -gnatyu
+A -gnatyx
+A -gnatwe
+A -gnat2005
+A -mtune=generic
+A -march=x86-64
+P SS ZX
+
+RN
+RV NO_SECONDARY_STACK
+RV NO_DYNAMIC_SIZED_OBJECTS
+RV NO_IMPLEMENTATION_PRAGMAS
+RV SPARK_05
+
+U black.http%b		black-http.adb		7af902e7 NE OO PK
+W ada%s			ada.ads			ada.ali
+W ada.characters%s	a-charac.ads		a-charac.ali
+W ada.characters.handling%s  a-chahan.adb	a-chahan.ali
+W black%s		black.ads		black.ali
+W interfaces%s		interfac.ads		interfac.ali
+W system.secondary_stack%s  s-secsta.adb	s-secsta.ali
+
+U black.http%s		black-http.ads		2a9c5f17 NE OO PU PK
+W black%s		black.ads		black.ali
+
+D ada.ads		20160516092928 3ffc8e18 ada%s
+D a-charac.ads		20160516092931 2d3ec45b ada.characters%s
+D a-chahan.ads		20160516092929 1601a50f ada.characters.handling%s
+D a-unccon.ads		20160516092931 f9eb8f06 ada.unchecked_conversion%s
+D black.ads		20170415214444 96edd2a0 black%s
+D black-http.ads	20170415214444 bc718db7 black.http%s
+D black-http.adb	20170415214444 d0892a5f black.http%b
+D interfac.ads		20160516092928 5ab55268 interfaces%s
+D system.ads		20160516092929 6326c08a system%s
+D s-exctab.ads		20160516092931 54135002 system.exception_table%s
+D s-secsta.ads		20160516092931 86a2856d system.secondary_stack%s
+D s-stalib.ads		20160516092931 09bd3940 system.standard_library%s
+D s-stoele.ads		20160516092932 2dc34a04 system.storage_elements%s
+X 1 ada.ads
+16K9*Ada 19e8 7|2r3 7r11
+X 2 a-charac.ads
+16K13*Characters 18e19 7|2r7 7r15
+X 3 a-chahan.ads
+36K24*Handling 159e28 7|2w18 7r26
+70V13*To_Lower{string} 7|9s14 9s41
+X 5 black.ads
+1K9*Black 5e10 6|1r9 28r5 7|4r14 28r5
+X 6 black-http.ads
+1K15*HTTP 5|1k9 6|27E4 28l11 28e15 7|4b20 28l11 28t15
+4a4*Version{string} 27c4 7|16r45 17r45 18r45 19r45 20r45 21r45 22r45 23r45
+. 24r45 25r45
+6E9*Methods 6e75
+6n21*Options{6E9}
+6n30*Get{6E9}
+6n35*Head{6E9}
+6n41*Post{6E9}
+6n47*Put{6E9}
+6n52*Delete{6E9}
+6n60*Trace{6E9}
+6n67*Connect{6E9}
+8E9*Statuses 17e35 19r38 7|12r38
+8n22*Switching_Protocols{8E9} 7|16r15
+9n22*OK{8E9} 7|17r15
+10n22*No_Content{8E9} 7|18r15
+11n22*Moved_Permanently{8E9} 7|19r15
+12n22*Moved_Temporarily{8E9} 7|20r15
+13n22*Bad_Request{8E9} 7|21r15
+14n22*Unauthorized{8E9} 7|22r15
+15n22*Forbidden{8E9} 7|23r15
+16n22*Not_Found{8E9} 7|24r15
+17n22*Server_Error{8E9} 7|25r15
+19V13*Status_Line{string} 19>26 7|12b13 27l8 27t19
+19e26 Status{8E9} 7|12b26 15r12
+21A9*Header_Key<string>(character)<integer> 23r35 7|6r35
+23V14*"="{boolean} 23>18 23>24 7|6b14 10l9 10t11
+23a18 Left{21A9} 7|6b18 9r32
+23a24 Right{21A9} 7|6b24 9r59
+25A9*Websocket_Accept_Key<string>(character)<integer>
+

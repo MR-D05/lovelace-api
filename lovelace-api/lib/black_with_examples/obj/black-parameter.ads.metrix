@@ -1,0 +1,29 @@
+Metrics computed for /home/user/Projects/Black-examples/black/src/black-parameter.ads
+containing package Black.Parameter
+
+=== Code line metrics ===
+  all lines           : 20
+  code lines          : 16
+  comment lines       : 0
+  end-of-line comments: 0
+  comment percentage  : 0.00
+  blank lines         : 4
+
+Black.Parameter (package - library item at lines  4: 20)
+
+=== Code line metrics ===
+   all lines           : 17
+   code lines          : 14
+   comment lines       : 0
+   end-of-line comments: 0
+   comment percentage  : 0.00
+   blank lines         : 3
+
+=== Element metrics ===
+   public types             : 1
+   all type definitions     : 1
+   public subprograms       : 0
+   all statements           : 0
+   all declarations         : 7
+   maximal construct nesting: 1
+   logical SLOC             : 7

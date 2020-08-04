@@ -1,0 +1,400 @@
+V "GNAT Lib v2016"
+A -gnatwa
+A -O2
+A -Wall
+A -gnatA
+A -fstack-check=specific
+A -gnata
+A -gnato
+A -gnatf
+A -gnatwa
+A -gnatVa
+A -gnaty3
+A -gnatya
+A -gnatyb
+A -gnatyc
+A -gnatyd
+A -gnatye
+A -gnatyf
+A -gnatyh
+A -gnatyi
+A -gnatyk
+A -gnatyl
+A -gnatym
+A -gnatyn
+A -gnatyo
+A -gnatyO
+A -gnatyp
+A -gnatyr
+A -gnatys
+A -gnatyt
+A -gnatyu
+A -gnatyx
+A -gnatwe
+A -gnat2005
+A -mtune=generic
+A -march=x86-64
+P SS ZX
+
+RN
+RV NO_DIRECT_BOOLEAN_OPERATORS
+RV NO_DISPATCH
+RV NO_DISPATCHING_CALLS
+RV NO_ENUMERATION_MAPS
+RV NO_EXCEPTION_HANDLERS
+RV NO_EXCEPTION_PROPAGATION
+RV NO_EXCEPTIONS
+RV NO_IMPLICIT_CONDITIONALS
+RV NO_LOCAL_ALLOCATORS
+RV NO_NESTED_FINALIZATION
+RV NO_SECONDARY_STACK
+RV NO_STANDARD_STORAGE_POOLS
+RV NO_STREAMS
+RV NO_DEFAULT_INITIALIZATION
+RV NO_DYNAMIC_SIZED_OBJECTS
+RV NO_IMPLEMENTATION_PRAGMAS
+RV NO_ELABORATION_CODE
+RV SPARK_05
+
+U black.request%b	black-request.adb	35b260ac NE OO PK
+W ada%s			ada.ads			ada.ali
+W ada.exceptions%s	a-except.adb		a-except.ali
+W ada.streams%s		a-stream.adb		a-stream.ali
+W ada.strings%s		a-string.ads		a-string.ali
+W ada.strings.fixed%s	a-strfix.adb		a-strfix.ali
+W ada.tags%s		a-tags.adb		a-tags.ali
+W black%s		black.ads		black.ali
+W black.text_io%s	black-text_io.adb	black-text_io.ali
+W interfaces%s		interfac.ads		interfac.ali
+W system%s		system.ads		system.ali
+W system.assertions%s	s-assert.adb		s-assert.ali
+W system.img_enum_new%s	s-imenne.adb		s-imenne.ali
+W system.secondary_stack%s  s-secsta.adb	s-secsta.ali
+W system.soft_links%s	s-soflin.adb		s-soflin.ali
+W system.standard_library%s  s-stalib.adb	s-stalib.ali
+W system.strings.stream_ops%s  s-ststop.adb	s-ststop.ali
+W system.val_enum%s	s-valenu.adb		s-valenu.ali
+W url_utilities%s	url_utilities.adb	url_utilities.ali
+
+U black.request%s	black-request.ads	111535fb EE OO PF PK
+W ada%s			ada.ads			ada.ali
+W ada.exceptions%s	a-except.adb		a-except.ali
+W ada.streams%s		a-stream.adb		a-stream.ali
+W ada.strings%s		a-string.ads		a-string.ali
+W ada.strings.unbounded%s  a-strunb.adb		a-strunb.ali
+W ada.tags%s		a-tags.adb		a-tags.ali
+W black%s		black.ads		black.ali
+W black.http%s		black-http.adb		black-http.ali
+W black.mime_types%s	black-mime_types.ads	black-mime_types.ali
+W black.optional_http_method%s  black-optional_http_method.ads  black-optional_http_method.ali
+W black.optional_natural%s  black-optional_natural.ads  black-optional_natural.ali
+W black.optional_string%s  black-optional_string.ads  black-optional_string.ali
+W black.parameter%s	black-parameter.ads	black-parameter.ali
+W black.parameter.vectors%s  black-parameter-vectors.ads  black-parameter-vectors.ali
+W black.parsing%s	black-parsing.adb	black-parsing.ali
+W system%s		system.ads		system.ali
+W system.secondary_stack%s  s-secsta.adb	s-secsta.ali
+W system.soft_links%s	s-soflin.adb		s-soflin.ali
+W system.standard_library%s  s-stalib.adb	s-stalib.ali
+W system.storage_elements%s  s-stoele.adb	s-stoele.ali
+W system.stream_attributes%s  s-stratt.adb	s-stratt.ali
+W system.strings.stream_ops%s  s-ststop.adb	s-ststop.ali
+
+D ada.ads		20160516092928 3ffc8e18 ada%s
+D a-charac.ads		20160516092931 2d3ec45b ada.characters%s
+D a-chlat1.ads		20160516092930 66457d31 ada.characters.latin_1%s
+D a-contai.ads		20160516092927 61e5e089 ada.containers%s
+D a-conhel.ads		20160516092928 20298884 ada.containers.helpers%s
+D a-coinve.ads		20160516092932 b7300cfa ada.containers.indefinite_vectors%s
+D a-except.ads		20160516092928 291912d5 ada.exceptions%s
+D a-finali.ads		20160516092931 bf4f806b ada.finalization%s
+D a-iteint.ads		20160516092929 7c7305e9 ada.iterator_interfaces%s
+D a-stream.ads		20160516092929 119b8fb3 ada.streams%s
+D a-string.ads		20160516092930 90ac6797 ada.strings%s
+D a-strfix.ads		20160516092932 d07c346e ada.strings.fixed%s
+D a-strmap.ads		20160516092930 e8bb714a ada.strings.maps%s
+D a-strunb.ads		20160516092928 3f91d4c5 ada.strings.unbounded%s
+D a-tags.ads		20160516092932 01f5e3ef ada.tags%s
+D a-unccon.ads		20160516092931 f9eb8f06 ada.unchecked_conversion%s
+D a-uncdea.ads		20160516092931 f15a5ed1 ada.unchecked_deallocation%s
+D black.ads		20170415214444 96edd2a0 black%s
+D black-generic_optional.ads  20170415214444 d5f92c6c black.generic_optional%s
+D black-http.ads	20170415214444 bc718db7 black.http%s
+D black-mime_types.ads	20170415214444 ade84ad0 black.mime_types%s
+D black-optional_http_method.ads  20170415214444 d25fcbe0 black.optional_http_method%s
+D black-optional_natural.ads  20170415214444 b82c289f black.optional_natural%s
+D black-optional_string.ads  20170415214444 ece93279 black.optional_string%s
+D black-parameter.ads	20170415214444 08df136e black.parameter%s
+D black-parameter-vectors.ads  20170415214444 1786c53e black.parameter.vectors%s
+D black-parsing.ads	20170415214444 1af68879 black.parsing%s
+D black-request.ads	20170415214444 3b5ef465 black.request%s
+D black-request.adb	20170415214444 8766b0eb black.request%b
+D black-text_io.ads	20170415214444 c501b1fb black.text_io%s
+D interfac.ads		20160516092928 5ab55268 interfaces%s
+D system.ads		20160516092929 6326c08a system%s
+D s-assert.ads		20160516092931 cd8d2c94 system.assertions%s
+D s-atocou.ads		20160516092932 b45c2d8d system.atomic_counters%s
+D s-exctab.ads		20160516092931 54135002 system.exception_table%s
+D s-finmas.ads		20160516092931 7811a767 system.finalization_masters%s
+D s-finroo.ads		20160516092931 4ff27390 system.finalization_root%s
+D s-imenne.ads		20160516092929 614c06c0 system.img_enum_new%s
+D s-memory.ads		20160516092930 597d6634 system.memory%s
+D s-parame.ads		20160516092932 7e2a0d7f system.parameters%s
+D s-pooglo.ads		20160516092927 ede33ef8 system.pool_global%s
+D s-secsta.ads		20160516092931 86a2856d system.secondary_stack%s
+D s-soflin.ads		20160516092929 14e1eb6c system.soft_links%s
+D s-stache.ads		20160516092932 a37c21ec system.stack_checking%s
+D s-stalib.ads		20160516092931 09bd3940 system.standard_library%s
+D s-stalib.adb		20160516092926 f2fe2716 system.standard_library%b
+D s-stoele.ads		20160516092932 2dc34a04 system.storage_elements%s
+D s-stoele.adb		20160516092930 ed88f8fb system.storage_elements%b
+D s-stopoo.ads		20160516092928 b16154c2 system.storage_pools%s
+D s-stposu.ads		20160516092927 97a6219c system.storage_pools.subpools%s
+D s-stratt.ads		20160516092927 aedef97e system.stream_attributes%s
+D s-string.ads		20160516092931 8fe54fb7 system.strings%s
+D s-ststop.ads		20160516092928 e6693757 system.strings.stream_ops%s
+D s-traent.ads		20160516092928 005bf670 system.traceback_entries%s
+D s-unstyp.ads		20160516092930 34867c83 system.unsigned_types%s
+D s-valenu.ads		20160516092931 bb1a4295 system.val_enum%s
+D url_utilities.ads	20170415214449 9cf7a1b7 url_utilities%s
+X 1 ada.ads
+16K9*Ada 19e8 28|2r3 11r3 43r32 46r32 64r24 29|2r3 20r11 62r11 84r11 102r32
+. 104r11 154r11 168r11 189r17 221r16 222r23 258r32 260r11 303r24 310r14 321r23
+. 349r11 418r17 432r11 453r17
+X 6 a-coinve.ads
+51I12*Extended_Index{integer}
+57R9*Vector<8|43R9> 28|26r73[26|4] 76r51[26|4] 29|231r55[26|4] 306r64[26|4]
+. 309r64[26|4] 314r50[26|4]
+145V13*Element{25|9R9} 29|159s43[26|4] 219s38[26|4]
+234U14*Append 29|326s29[26|4] 337s29[26|4]
+274V13*First_Index{integer} 29|157s39[26|4] 215s39[26|4]
+280V13*Last_Index{51I12[26|4]} 29|158s39[26|4] 216s39[26|4]
+X 9 a-iteint.ads
+24h9 Forward_Iterator
+32h9 Reversible_Iterator<24R9[6|75]>
+X 10 a-stream.ads
+36K13*Streams 87e16 28|2w7 43r36 46r36 29|102r36 258r36
+39H9*Root_Stream_Type 70e64 28|43r44 46r44 29|102r44 258r44
+X 11 a-string.ads
+16K13*Strings 35e16 28|11r7 64r28 29|2r7 20r15 62r15 84r15 104r15 154r15
+. 168r15 189r21 221r20 222r27 260r15 303r28 310r18 321r27 349r15 418r21 432r15
+. 453r21
+X 12 a-strfix.ads
+18K21*Fixed 251e22 29|2w15 310r26
+36V13*Index{natural} 29|318s24 323s49
+X 14 a-strunb.ads
+76K21*Unbounded 489e26 28|11w15 64r36 29|20r23 62r23 84r23 104r23 154r23
+. 168r23 189r29 221r28 222r35 260r23 303r36 321r35 349r23 418r29 432r23 453r29
+79R9*Unbounded_String<8|43R9> 473e14 28|64r46 29|303r46
+84V13*Length{natural} 29|27s37 137s28 406s47
+94V13*To_Unbounded_String{79R9} 29|67s34 68s34 90s38 91s38 96s38 97s38 283s30
+. 327s40 332s40 337s52 380s25 391s25 437s34 438s34 441s34
+100V13*To_String{string} 29|159s13 171s17 189s39 221s38 222s45 355s24 409s23
+. 418s39 453s39
+148V13*Slice{string} 29|361s42 382s31 386s42 393s31 406s16
+149r7 Source{79R9} 29|382r38 386r49 393r38
+150i7 Low{positive} 29|383r38 387r49 394r38
+151i7 High{natural} 29|384r38 388r49 395r38
+230V13*Index{natural} 29|350s42
+248V13*Index{natural} 29|351s42 376s21
+X 18 black.ads
+1K9*Black 5e10 28|4r3 5r3 6r3 7r3 14r3 15r3 16r3 17r3 19r9 66r38 76r27 84r5
+. 29|6r3 8r14 63r16 64r16 85r16 86r16 87r16 155r11 198r11 208r11 209r11 218r17
+. 231r31 237r38 261r16 262r16 263r16 268r20 269r20 270r13 306r40 309r40 314r26
+. 433r16 434r16 458r5
+4X4*Protocol_Error 29|173r16 287r22 295r19 354r16 366r22 399r22 407r22 455r16
+X 19 black-generic_optional.ads
+5R9*Instance 28|73r48[22|5] 74r43[24|6] 75r43[24|6] 78r43[24|6] 79r43[24|6]
+. 80r43[24|6] 81r43[24|6] 82r44[23|4] 29|11r61[24|6] 12r61[24|6] 13r62[23|4]
+. 17r61[24|6] 18r61[24|6] 19r62[23|4] 63r43[22|5] 64r38[24|6] 85r43[22|5]
+. 86r39[23|4] 87r38[24|6] 239r33[23|4] 240r32[24|6] 278r41[24|6] 360r43[22|5]
+. 374r44[24|6] 433r43[22|5] 434r38[24|6]
+5b19*Set{boolean} 29|22r18[24|6] 22r43[24|6] 26r21[24|6] 26r44[23|4] 33r28[23|4]
+. 34r37[24|6] 43r26[22|5] 46r27[24|6] 49r55[24|6] 133r23[24|6] 142r23[24|6]
+. 149r29[24|6] 170r23[24|6] 179r25[22|5] 188r25[24|6] 276r30[23|4] 286r35[24|6]
+. 290r31[24|6] 417r27[24|6] 452r35[24|6]
+9i16*Value{integer} 29|27r28[23|4] 27r53[24|6] 33r56[23|4] 109r57[22|5] 111r39[24|6]
+. 116r35[24|6] 125r47[24|6] 130r40[24|6] 135r46[24|6] 137r49[24|6] 143r41[24|6]
+. 171r41[24|6] 180r32[22|5] 189r65[24|6] 276r60[23|4] 279r55[23|4] 294r25[22|5]
+. 418r67[24|6] 453r72[24|6]
+15V14*"+"{5R9[22|5]} 29|66s33[22|5] 67s33[24|6] 68s33[24|6] 89s37[22|5] 90s37[24|6]
+. 91s37[24|6] 96s37[24|6] 97s37[24|6] 98s37[23|4] 243s26[24|6] 247s35[24|6]
+. 249s28[24|6] 251s34[24|6] 253s36[23|4] 283s29[24|6] 363s31[22|5] 380s24[24|6]
+. 391s24[24|6] 436s33[22|5] 437s33[24|6] 438s33[24|6] 441s33[24|6]
+X 20 black-http.ads
+1K15*HTTP 28e15 28|4w9 23r55 49r36 52r40 29|59r36 78r40 109r25 113r25 177r51
+. 238r16 261r22 294r33 363r32 436r34
+4a4*Version{string} 29|113r30
+6E9*Methods 6e75 28|23r60 49r41 52r45 29|59r41 78r45 109r30 177r56 261r27
+. 363r37
+6n30*Get{6E9} 29|436r39
+6n41*Post{6E9} 29|294r38
+21A9*Header_Key<string>(character)<integer> 29|238r21
+23V14*"="{boolean} 29|242s19 244s22 246s22 248s22 250s22 252s22
+X 21 black-mime_types.ads
+1K15*MIME_Types 10e21 28|5w9 56r50 29|82r50
+7K12*Text 9e12 28|56r61 29|82r61
+8a7*Plain{string} 28|56r66 29|82r66
+X 22 black-optional_http_method.ads
+5K15*Optional_HTTP_Method[19|4] 28|14w9 73r27 29|63r22 85r22 360r22 433r22
+X 23 black-optional_natural.ads
+4K15*Optional_Natural[19|4] 28|15w9 82r27 29|13r45 19r45 86r22 239r16
+X 24 black-optional_string.ads
+6K15*Optional_String[19|4] 28|16w9 74r27 75r27 78r27 79r27 80r27 81r27 29|11r45
+. 12r45 17r45 18r45 64r22 87r22 240r16 278r25 374r28 434r22
+X 25 black-parameter.ads
+4K15*Parameter 20e20 28|6w9 7r9 26r55 76r33 29|155r17 198r17 208r17 209r17
+. 218r23 231r37 306r46 309r46 314r32
+6X4*No_Such_Parameter_Key 29|202r12 212r16
+7X4*No_Such_Parameter_Value 29|202r36 227r13
+9R9*Instance 18e17 29|218r33
+9b19*With_Value{boolean} 29|331m26 340m38
+11r10*Key{14|79R9} 29|159r59 221r51 327m26 337m38
+14r16*Value{14|79R9} 29|222r58 332m26
+X 26 black-parameter-vectors.ads
+4K25*Vectors[6|46] 28|7w19 26r65 76r43 29|155r27 209r27 231r47 306r56 309r56
+. 314r42
+X 27 black-parsing.ads
+8K15*Parsing 42e18 28|17w9 66r44 29|237r44 262r22 263r22 268r26 269r26 270r19
+12R9*Header 35e17 29|262r30
+13V13*Get{12R9} 29|268s34
+15V13*End_Of_Header{boolean} 29|269s34
+17R9*Header_Line 41e17 28|66r52 29|237r52 263r30
+18U14*Read 29|270s27
+18p20 Stream(10|39R9) 29|270r33
+19r20 From{12R9} 29|271r33
+20r20 Item{17R9} 29|272r33
+23V13*Key{20|21A9} 29|242s15 244s18 246s18 248s18 250s18 252s18
+24V13*Value{string} 29|244s43
+25V13*Value{14|79R9} 29|243s32 247s41 249s34 251s40
+27V13*Value{integer} 29|253s42
+X 28 black-request.ads
+19K15*Request 18|1k9 28|62E14 84l11 84e18 29|8b20 458l11 458t18
+20R9*Instance 21r21 23p13 23r38 24p13 24r38 25p13 25r38 26p13 26r38 28p13
+. 28r41 30p13 30r37 33p13 33r37 36p13 36r38 37p13 37r38 39p13 39r42 40p13
+. 40r42 42p14 44r23 45p13 47r13 49p13 51r51 52p13 57r28 58p13 60r53 62p14
+. 63r24 65p14 65r38 68r8 69r8 71c9 83e17 29|10r35 41r35 61r51 83r28 103r23
+. 147r38 152r41 167r32 177r34 186r34 195r37 206r37 230r38 236r38 259r13 265r18
+. 302r24 415r36 424r42 431r53 448r42
+21C12*Class<20R9>
+23V13*Method{20|6E9} 23>25 29|177b13 184l8 184t14
+23r25 Request{20R9} 29|177b21 179r10 180r17
+24V13*Host{string} 24>25 29|167b13 175l8 175t12
+24r25 Request{20R9} 29|167b19 170r10 171r28
+25V13*Resource{string} 25>25 29|415b13 422l8 422t16
+25r25 Request{20R9} 29|415b23 417r10 418r50
+26V13*Parameters{6|57R9[26|4]} 26>25 29|230b13 234l8 234t18
+26r25 Request{20R9} 29|230b25 233r14
+28V13*Has_Parameter{boolean} 28>28 29>28 29|152b13 165l8 165t21 211s22
+28r28 Request{20R9} 29|152b28 157r20 158r20 159r24
+29a28 Key{string} 29|153b28 159r66 211r37
+30V13*Parameter{string} 30>24 31>24 32>24 29|195b13 204l8 204t17
+30r24 Request{20R9} 29|195b24 200r14
+31a24 Key{string} 29|196b24 200r40
+32a24 Default{string} 29|197b24 203r17
+33V13*Parameter{string} 33>24 34>24 29|200s22 206b13 228l8 228t17
+33r24 Request{20R9} 29|206b24 211r14 215r20 216r20 219r19
+34a24 Key{string} 29|200r33 207b24 211r44 221r58
+36V13*Has_Origin{boolean} 36>25 29|128s15 147b13 150l8 150t18
+36r25 Request{20R9} 29|147b25 149r14
+37V13*Origin{string} 37>25 29|186b13 193l8 193t14
+37r25 Request{20R9} 29|186b21 188r10 189r50
+39V13*Want_Websocket{boolean} 39>29 29|424b13 427l8 427t22
+39r29 Request{20R9} 29|424b29 426r14
+40V13*Websocket_Key{string} 40>29 29|448b13 457l8 457t21
+40r29 Request{20R9} 29|448b29 450r14 452r13 453r50
+42U14*Generate_HTTP 43^7 44>7 68r28 29|101b14 145l8 145t21
+43p7 Stream(10|39R9) 29|102b7 109r17 110r17 111r17 112r17 113r17 115r17 116r17
+. 118r17 121r20 122r20 124r20 125r20 129r20 130r20 134r20 135r20 136r20 137r20
+. 140r17 143r20
+44r7 Item{20R9} 29|103b7 107r14 109r45 111r25 116r25 120r10 125r28 128r10
+. 130r28 133r10 135r28 137r36 142r10 143r28
+45V13*Parse_HTTP{20R9} 46^7 69r28 29|257b13 299l8 299t18
+46p7 Stream(10|39R9) 29|258b7 266r57 268r39 270r43 281r29
+49V13*Compose{20R9} 49>22 50>22 51>22 29|59b13 76l8 76t15
+49e22 Method{20|6E9} 29|59b22 66r34
+50a22 Host{string} 29|60b22 67r55
+51a22 Resource{string} 29|61b22 68r55
+52V13*Compose{20R9} 52>22 53>22 54>22 55>22 56>22 29|78b13 99l8 99t15
+52e22 Method{20|6E9} 29|78b22 89r38
+53a22 Host{string} 29|79b22 90r59
+54a22 Resource{string} 29|80b22 91r59
+55a22 Content{string} 29|81b22 96r59 98r38
+56a22 Content_Type{string} 29|82b22 97r59
+58V13*Websocket{20R9} 58>24 59>24 60>24 29|429b13 446l8 446t17
+58a24 Host{string} 29|429b24 437r55
+59a24 Resource{string} 29|430b24 438r55
+60a24 Key{string} 29|431b24 441r55
+62U14 Parse_Method_And_Resource 63=7 64>7 29|266s12 301b14 413l8 413t33
+63r7 Request{20R9} 29|302b7 363m13 379m22 385m22 390m22
+64r7 Line{14|79R9} 29|303b7 350r49 351r49 355r35 361r49 376r28 382r48 386r59
+. 393r48 406r23 406r55 409r34
+65U14 Parse 65=21 66>21 29|236b14 255l8 255t13 273s15
+65r21 Request{20R9} 29|236b21 243m10 245m10 247m10 249m10 251m10 253m10
+66r21 Line{27|17R9} 29|237b21 242r10 243r27 244r13 244r38 246r13 247r36 248r13
+. 249r29 250r13 251r35 252r13 253r37
+73r10*Method{19|5R9[22|5]} 29|43r19 66m15 89m15 109r50 179r18 180r25 294r18
+. 363m21 436m15
+74r10*Host{19|5R9[24|6]} 29|46r22 67m15 90m15 116r30 170r18 171r36 243m18
+. 437m15
+75r10*Resource{19|5R9[24|6]} 29|68m15 91m15 111r30 379m30 390m30 417r18 418r58
+. 438m15
+76r10*Parameters{6|57R9[26|4]} 29|157r28 158r28 159r32 215r28 216r28 219r27
+. 233r22 385m30
+77b10*Websocket{boolean} 29|49r18 70m15 93m15 120r15 245m18 426r22 440m15
+. 450r22
+78r10*Websocket_Key{19|5R9[24|6]} 29|49r41 125r33 247m18 441m15 452r21 453r58
+79r10*Origin{19|5R9[24|6]} 29|130r33 149r22 188r18 189r58 249m18
+80r10*Content{19|5R9[24|6]} 29|54r37 96m15 133r15 137r41 142r15 143r33 283m18
+81r10*Content_Type{19|5R9[24|6]} 29|55r37 97m15 135r33 251m18 286r22 290r18
+82r10*Content_Length{19|5R9[23|4]} 29|56r37 98m15 253m18 276r15 276r45 279r40
+X 29 black-request.adb
+10U14 Check 10>21 41b14 57l8 57t13 107s7
+10r21 Item{28|20R9} 41b21 43r14 46r17 49r13 49r36 54r32 55r32 56r32
+11U14 Check 11>21 12>21 13>21 17b14 39l8 39t13 54s7
+11r21 Content{19|5R9[24|6]} 17b21 22r10 26r13 27r45 34r29 54r14
+12r21 Content_Type{19|5R9[24|6]} 18b21 22r30 55r14
+13r21 Content_Length{19|5R9[23|4]} 19b21 26r29 27r13 33r13 33r41 56r14
+157i11 Index{integer} 159r52
+215i11 Index{integer} 219r47
+218r13 P{25|9R9} 221r49 222r56
+262r7 Header{27|12R9} 268m10 268r10 269r49 271m43 271r43
+263r7 Line{27|17R9} 272m43 273r22
+265r14 R{28|20R9} 266m10 266r10 273m13 273r13 276r13 276r43 279r38 283m16
+. 286r20 290r16 294r16
+279a16 Buffer{string} 282m29 282r29 283r51
+305V16 Parse_Parameters{6|57R9[26|4]} 305>34 308b16 347l11 347t27 386s24
+305a34 Raw{string} 308b34 311r29 316r33 318r31 318r44 322r48
+311i10 From{positive} 316r26 318r36 322r53 344m16
+312i10 Next{positive} 318m16 322r61 344r24
+314r17 Result{6|57R9[26|4]} 326m22 326r22 337m22 337r22
+322a19 Current{string} 323r56 325r32 329r45 330r48 334r45 335r62 339r58
+323i19 Equals{natural} 325r22 330r65 335r48
+350i7 First_Space{natural} 351r60 361r58 372r31 376r39 383r48 394r48
+351i7 Second_Space{natural} 353r10 372r16 378r47 388r59 395r48 406r29
+358q10 Parse_Method 368l14 368e26
+361a13 Method{string} 363r52 367r30
+370q10 Parse_Resource_And_Parameters 402l14 402e43
+375i19 Parameter_Marker{natural} 378r22 384r48 387r59
+404q10 Parse_Protocol_Version 411l14 411e36
+X 30 black-text_io.ads
+6K15*Text_IO 29|6w9 105r11 266r39 30|40e18
+7U14*Put 29|109s7 110s7 112s7 115s7 124s10 129s10 134s10 136s10
+10U14*Put 29|111s7 143s10
+16U14*Put_Line 29|113s7 118s7 121s10 122s10
+19U14*Put_Line 29|116s7 125s10 130s10 135s10
+25U14*Put_Line 29|137s10
+31U14*New_Line 29|140s7
+37V13*Get_Line{14|79R9} 29|266s47
+X 32 system.ads
+67M9*Address
+X 39 s-memory.ads
+53V13*Alloc{32|67M9} 103i<c,__gnat_malloc>22
+68U14*Free 104i<c,__gnat_free>22
+76V13*Realloc{32|67M9} 105i<c,__gnat_realloc>22
+X 46 s-stalib.adb
+93U14 Break_Start 94i<c,__gnat_break_start>22
+X 57 url_utilities.ads
+21K9*URL_Utilities 29|4w3 328r43 333r43 338r55 381r28 392r28 57|52e18
+38V13*Decode{string} 29|328s57 333s57 338s69 381s42 392s42
+

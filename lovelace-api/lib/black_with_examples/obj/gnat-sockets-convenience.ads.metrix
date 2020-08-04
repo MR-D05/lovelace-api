@@ -1,0 +1,46 @@
+Metrics computed for /home/user/Projects/Black-examples/gnat-sockets-extras/src/gnat-sockets-convenience.ads
+containing package GNAT.Sockets.Convenience
+
+=== Code line metrics ===
+  all lines           : 21
+  code lines          : 9
+  comment lines       : 8
+  end-of-line comments: 0
+  comment percentage  : 47.05
+  blank lines         : 4
+
+GNAT.Sockets.Convenience (package - library item at lines  10: 21)
+
+=== Code line metrics ===
+   all lines           : 12
+   code lines          : 9
+   comment lines       : 0
+   end-of-line comments: 0
+   comment percentage  : 0.00
+   blank lines         : 3
+
+=== Element metrics ===
+   public subprograms       : 3
+   all statements           : 0
+   all declarations         : 11
+   maximal unit nesting     : 1
+   maximal construct nesting: 1
+   logical SLOC             : 11
+
+   To_IP_Address (function at lines  13: 13)
+      all parameters           : 1
+         IN parameters         : 1
+         OUT parameters        : 0
+         IN OUT parameters     : 0
+
+   Make_Server (function at lines  15: 17)
+      all parameters           : 3
+         IN parameters         : 3
+         OUT parameters        : 0
+         IN OUT parameters     : 0
+
+   Connect_To_Server (function at lines  19: 20)
+      all parameters           : 2
+         IN parameters         : 2
+         OUT parameters        : 0
+         IN OUT parameters     : 0

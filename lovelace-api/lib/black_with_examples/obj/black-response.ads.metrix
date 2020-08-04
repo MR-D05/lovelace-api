@@ -1,0 +1,179 @@
+Metrics computed for /home/user/Projects/Black-examples/black/src/black-response.ads
+containing package Black.Response
+
+=== Code line metrics ===
+  all lines           : 124
+  code lines          : 101
+  comment lines       : 0
+  end-of-line comments: 0
+  comment percentage  : 0.00
+  blank lines         : 23
+
+Black.Response (package - library item at lines  11: 124)
+
+=== Code line metrics ===
+   all lines           : 114
+   code lines          : 93
+   comment lines       : 0
+   end-of-line comments: 0
+   comment percentage  : 0.00
+   blank lines         : 21
+
+=== Element metrics ===
+   public types             : 2
+      including
+      tagged types    : 1
+      private types   : 1
+   all type definitions     : 5
+   public subprograms       : 22
+   all statements           : 0
+   all declarations         : 79
+   maximal unit nesting     : 2
+   maximal construct nesting: 2
+   logical SLOC             : 79
+
+   Create (function at lines  15: 15)
+      all parameters           : 1
+         IN parameters         : 1
+         OUT parameters        : 0
+         IN OUT parameters     : 0
+
+   Switch_To_Websocket (function at lines  17: 17)
+      all parameters           : 1
+         IN parameters         : 1
+         OUT parameters        : 0
+         IN OUT parameters     : 0
+
+   OK (function at lines  19: 21)
+      all parameters           : 2
+         IN parameters         : 2
+         OUT parameters        : 0
+         IN OUT parameters     : 0
+
+   OK (function at lines  22: 24)
+      all parameters           : 2
+         IN parameters         : 2
+         OUT parameters        : 0
+         IN OUT parameters     : 0
+
+   No_Content (function at lines  26: 26)
+      all parameters           : 0
+
+   Redirect (function at lines  28: 30)
+      all parameters           : 2
+         IN parameters         : 2
+         OUT parameters        : 0
+         IN OUT parameters     : 0
+
+   Bad_Request (function at lines  32: 33)
+      all parameters           : 2
+         IN parameters         : 2
+         OUT parameters        : 0
+         IN OUT parameters     : 0
+
+   Unauthorized (function at lines  35: 36)
+      all parameters           : 2
+         IN parameters         : 2
+         OUT parameters        : 0
+         IN OUT parameters     : 0
+
+   Forbidden (function at lines  38: 39)
+      all parameters           : 2
+         IN parameters         : 2
+         OUT parameters        : 0
+         IN OUT parameters     : 0
+
+   Not_Found (function at lines  41: 41)
+      all parameters           : 1
+         IN parameters         : 1
+         OUT parameters        : 0
+         IN OUT parameters     : 0
+
+   Not_Found (function at lines  42: 43)
+      all parameters           : 2
+         IN parameters         : 2
+         OUT parameters        : 0
+         IN OUT parameters     : 0
+
+   Server_Error (function at lines  45: 46)
+      all parameters           : 2
+         IN parameters         : 2
+         OUT parameters        : 0
+         IN OUT parameters     : 0
+
+   Output_HTTP (procedure at lines  48: 50)
+      all parameters           : 2
+         IN parameters         : 2
+         OUT parameters        : 0
+         IN OUT parameters     : 0
+
+   Input_HTTP (function at lines  52: 54)
+      all parameters           : 1
+         IN parameters         : 1
+         OUT parameters        : 0
+         IN OUT parameters     : 0
+
+   Output (procedure at lines  56: 58)
+      all parameters           : 2
+         IN parameters         : 2
+         OUT parameters        : 0
+         IN OUT parameters     : 0
+
+   Access_Control (package at lines  64: 74)
+
+   === Code line metrics ===
+      all lines           : 11
+      code lines          : 10
+      comment lines       : 0
+      end-of-line comments: 0
+      comment percentage  : 0.00
+      blank lines         : 1
+
+   === Element metrics ===
+      all statements           : 0
+      all declarations         : 13
+      maximal unit nesting     : 1
+      maximal construct nesting: 1
+      logical SLOC             : 13
+
+      Allow_Origin (procedure at lines  67: 68)
+         all parameters           : 2
+            IN parameters         : 1
+            OUT parameters        : 0
+            IN OUT parameters     : 1
+
+      Allow_Credentials (procedure at lines  69: 69)
+         all parameters           : 1
+            IN parameters         : 0
+            OUT parameters        : 0
+            IN OUT parameters     : 1
+
+      Allow_Headers (procedure at lines  70: 71)
+         all parameters           : 2
+            IN parameters         : 1
+            OUT parameters        : 0
+            IN OUT parameters     : 1
+
+      Max_Age (procedure at lines  72: 73)
+         all parameters           : 2
+            IN parameters         : 1
+            OUT parameters        : 0
+            IN OUT parameters     : 1
+
+   Status (function at lines  76: 76)
+      all parameters           : 1
+         IN parameters         : 1
+         OUT parameters        : 0
+         IN OUT parameters     : 0
+
+   Content_Type (function at lines  77: 77)
+      all parameters           : 1
+         IN parameters         : 1
+         OUT parameters        : 0
+         IN OUT parameters     : 0
+
+   Content (function at lines  78: 78)
+      all parameters           : 1
+         IN parameters         : 1
+         OUT parameters        : 0
+         IN OUT parameters     : 0

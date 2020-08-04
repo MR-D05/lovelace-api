@@ -1,0 +1,62 @@
+V "GNAT Lib v2016"
+A -gnatwa
+A -O2
+A -Wall
+A -gnatA
+A -fstack-check=specific
+A -gnata
+A -gnato
+A -gnatf
+A -gnatwa
+A -gnatVa
+A -gnaty3
+A -gnatya
+A -gnatyb
+A -gnatyc
+A -gnatyd
+A -gnatye
+A -gnatyf
+A -gnatyh
+A -gnatyi
+A -gnatyk
+A -gnatyl
+A -gnatym
+A -gnatyn
+A -gnatyo
+A -gnatyO
+A -gnatyp
+A -gnatyr
+A -gnatys
+A -gnatyt
+A -gnatyu
+A -gnatyx
+A -gnatwe
+A -gnat2005
+A -mtune=generic
+A -march=x86-64
+P ZX
+
+RN
+RV NO_IMPLEMENTATION_PRAGMAS
+RV SPARK_05
+
+U black.mime_types%s	black-mime_types.ads	3b059870 NE OO PK
+W black%s		black.ads		black.ali
+
+D ada.ads		20160516092928 3ffc8e18 ada%s
+D a-unccon.ads		20160516092931 f9eb8f06 ada.unchecked_conversion%s
+D black.ads		20170415214444 96edd2a0 black%s
+D black-mime_types.ads	20170415214444 ade84ad0 black.mime_types%s
+D system.ads		20160516092929 6326c08a system%s
+D s-exctab.ads		20160516092931 54135002 system.exception_table%s
+D s-stalib.ads		20160516092931 09bd3940 system.standard_library%s
+X 3 black.ads
+1K9*Black 5e10 4|1r9 10r5
+X 4 black-mime_types.ads
+1K15*MIME_Types 3|1k9 4|10l11 10e21
+2K12*Application 5l8 5e19
+3a7*JSON{string}
+4a7*Raw{string}
+7K12*Text 9l8 9e12
+8a7*Plain{string}
+

@@ -1,0 +1,83 @@
+Metrics computed for /home/user/Projects/Black-examples/black/src/black-http.adb
+containing package body Black.HTTP
+
+=== Code line metrics ===
+  all lines           : 28
+  code lines          : 26
+  comment lines       : 0
+  end-of-line comments: 1
+  comment percentage  : 3.84
+  blank lines         : 2
+
+Black.HTTP (package body - library item at lines  4: 28)
+
+=== Code line metrics ===
+   all lines           : 25
+   code lines          : 24
+   comment lines       : 0
+   end-of-line comments: 1
+   comment percentage  : 4.16
+   blank lines         : 1
+
+=== Element metrics ===
+   all subprogram bodies    : 2
+   all statements           : 12
+   all declarations         : 5
+   maximal unit nesting     : 1
+   maximal construct nesting: 3
+   logical SLOC             : 17
+
+   "=" (function body at lines  5: 10)
+
+   === Code line metrics ===
+      all lines           : 6
+      code lines          : 6
+      comment lines       : 0
+      end-of-line comments: 0
+      comment percentage  : 0.00
+      blank lines         : 0
+
+   === Element metrics ===
+      all statements           : 1
+      all declarations         : 2
+      maximal construct nesting: 1
+      logical SLOC             : 3
+
+   === Complexity metrics ===
+      statement complexity     : 1
+      expression complexity    : 0
+      cyclomatic complexity    : 1
+      essential complexity     : 1
+      maximum loop nesting     : 0
+      extra exit points        : 0
+
+   Status_Line (function body at lines  12: 27)
+
+   === Code line metrics ===
+      all lines           : 16
+      code lines          : 16
+      comment lines       : 0
+      end-of-line comments: 1
+      comment percentage  : 6.25
+      blank lines         : 0
+
+   === Element metrics ===
+      all statements           : 11
+      all declarations         : 2
+      maximal construct nesting: 2
+      logical SLOC             : 13
+
+   === Complexity metrics ===
+      statement complexity     : 10
+      expression complexity    : 0
+      cyclomatic complexity    : 10
+      essential complexity     : 10
+      maximum loop nesting     : 0
+      extra exit points        : 9
+
+=== Average complexity metrics ===
+      statement_complexity     :  5.50
+      expression_complexity    :  0.00
+      cyclomatic_complexity    :  5.50
+      essential_complexity     :  5.50
+      max_loop_nesting         :  0.00

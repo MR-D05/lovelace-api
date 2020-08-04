@@ -1,0 +1,27 @@
+# Transient directories
+/external_libs/
+/downloads/
+/xml_results/
+
+# Do not track build objects.
+/build/
+/lib/
+/esl
+/tester
+
+# Do not track emacs temporary and backup files
+\#*#
+*~
+
+# Do not track Nano temporary files
+.#*#
+
+# Do not track Vi(m) temporary files
+.*.swp
+
+# Local files @krc
+TODO
+
+# Local files @sparre
+/to_master
+

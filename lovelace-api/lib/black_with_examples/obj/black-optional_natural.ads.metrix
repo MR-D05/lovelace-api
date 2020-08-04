@@ -1,0 +1,26 @@
+Metrics computed for /home/user/Projects/Black-examples/black/src/black-optional_natural.ads
+containing private package instance Black.Optional_Natural
+
+=== Code line metrics ===
+  all lines           : 5
+  code lines          : 4
+  comment lines       : 0
+  end-of-line comments: 0
+  comment percentage  : 0.00
+  blank lines         : 1
+
+Black.Optional_Natural (package instantiation - library item at lines  4: 5)
+
+=== Code line metrics ===
+   all lines           : 2
+   code lines          : 2
+   comment lines       : 0
+   end-of-line comments: 0
+   comment percentage  : 0.00
+   blank lines         : 0
+
+=== Element metrics ===
+   all statements           : 0
+   all declarations         : 1
+   maximal construct nesting: 1
+   logical SLOC             : 1

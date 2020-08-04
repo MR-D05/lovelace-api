@@ -1,0 +1,204 @@
+V "GNAT Lib v2016"
+M P W=b
+A -gnatwa
+A -O2
+A -Wall
+A -gnatA
+A -fstack-check=specific
+A -gnata
+A -gnato
+A -gnatf
+A -gnatwa
+A -gnatVa
+A -gnaty3
+A -gnatya
+A -gnatyb
+A -gnatyc
+A -gnatyd
+A -gnatye
+A -gnatyf
+A -gnatyh
+A -gnatyi
+A -gnatyk
+A -gnatyl
+A -gnatym
+A -gnatyn
+A -gnatyo
+A -gnatyO
+A -gnatyp
+A -gnatyr
+A -gnatys
+A -gnatyt
+A -gnatyu
+A -gnatyx
+A -gnatwe
+A -gnat2005
+A -mtune=generic
+A -march=x86-64
+P SS ZX
+
+RN
+RV NO_EXCEPTION_HANDLERS
+RV NO_EXCEPTIONS
+RV NO_IO
+RV NO_NESTED_FINALIZATION
+RV NO_SECONDARY_STACK
+RV NO_STANDARD_STORAGE_POOLS
+RV NO_STREAMS
+RV NO_DEFAULT_INITIALIZATION
+RV NO_DYNAMIC_SIZED_OBJECTS
+RV NO_IMPLEMENTATION_PRAGMAS
+RV SPARK_05
+
+U client%b		client.adb		7a40baf9 NE OO SU
+W ada%s			ada.ads			ada.ali
+W ada.command_line%s	a-comlin.adb		a-comlin.ali
+W ada.exceptions%s	a-except.adb		a-except.ali
+W ada.streams%s		a-stream.adb		a-stream.ali
+W ada.streams.stream_io%s  a-ststio.adb		a-ststio.ali
+W ada.tags%s		a-tags.adb		a-tags.ali
+W ada.text_io%s		a-textio.adb		a-textio.ali
+W black%s		black.ads		black.ali
+W black.http%s		black-http.adb		black-http.ali
+W black.request%s	black-request.adb	black-request.ali
+W black.response%s	black-response.adb	black-response.ali
+W gnat%s		gnat.ads		gnat.ali
+W gnat.sockets%s	g-socket.adb		g-socket.ali
+W gnat.sockets.convenience%s  gnat-sockets-convenience.adb  gnat-sockets-convenience.ali
+W interfaces%s		interfac.ads		interfac.ali
+W system.secondary_stack%s  s-secsta.adb	s-secsta.ali
+W system.soft_links%s	s-soflin.adb		s-soflin.ali
+W system.val_int%s	s-valint.adb		s-valint.ali
+
+D ada.ads		20160516092928 3ffc8e18 ada%s
+D a-charac.ads		20160516092931 2d3ec45b ada.characters%s
+D a-chlat1.ads		20160516092930 66457d31 ada.characters.latin_1%s
+D a-comlin.ads		20160516092930 ea62afbc ada.command_line%s
+D a-contai.ads		20160516092927 61e5e089 ada.containers%s
+D a-conhel.ads		20160516092928 20298884 ada.containers.helpers%s
+D a-coinve.ads		20160516092932 b7300cfa ada.containers.indefinite_vectors%s
+D a-except.ads		20160516092928 291912d5 ada.exceptions%s
+D a-finali.ads		20160516092931 bf4f806b ada.finalization%s
+D a-ioexce.ads		20160516092927 e4a01f64 ada.io_exceptions%s
+D a-iteint.ads		20160516092929 7c7305e9 ada.iterator_interfaces%s
+D a-stream.ads		20160516092929 119b8fb3 ada.streams%s
+D a-ststio.ads		20160516092930 c3455b31 ada.streams.stream_io%s
+D a-string.ads		20160516092930 90ac6797 ada.strings%s
+D a-strmap.ads		20160516092930 e8bb714a ada.strings.maps%s
+D a-strunb.ads		20160516092928 3f91d4c5 ada.strings.unbounded%s
+D a-tags.ads		20160516092932 01f5e3ef ada.tags%s
+D a-textio.ads		20160516092932 386df5d4 ada.text_io%s
+D a-unccon.ads		20160516092931 f9eb8f06 ada.unchecked_conversion%s
+D a-uncdea.ads		20160516092931 f15a5ed1 ada.unchecked_deallocation%s
+D black.ads		20170415214444 96edd2a0 black%s
+D black-generic_optional.ads  20170415214444 d5f92c6c black.generic_optional%s
+D black-http.ads	20170415214444 bc718db7 black.http%s
+D black-mime_types.ads	20170415214444 ade84ad0 black.mime_types%s
+D black-optional_http_method.ads  20170415214444 d25fcbe0 black.optional_http_method%s
+D black-optional_natural.ads  20170415214444 b82c289f black.optional_natural%s
+D black-optional_string.ads  20170415214444 ece93279 black.optional_string%s
+D black-parameter.ads	20170415214444 08df136e black.parameter%s
+D black-parameter-vectors.ads  20170415214444 1786c53e black.parameter.vectors%s
+D black-parsing.ads	20170415214444 1af68879 black.parsing%s
+D black-request.ads	20170415214444 3b5ef465 black.request%s
+D black-response.ads	20170415214444 a39906c0 black.response%s
+D client.adb		20170415214405 7304b58b client%b
+D gnat.ads		20160516092933 fd2ad2f1 gnat%s
+D g-socket.ads		20160516092932 6b8693a8 gnat.sockets%s
+D gnat-sockets-convenience.ads  20170415214446 573ee291 gnat.sockets.convenience%s
+D interfac.ads		20160516092928 5ab55268 interfaces%s
+D i-c.ads		20160516092927 5421119b interfaces.c%s
+D i-cstrea.ads		20160516092927 e53d8b8e interfaces.c_streams%s
+D system.ads		20160516092929 6326c08a system%s
+D s-atocou.ads		20160516092932 b45c2d8d system.atomic_counters%s
+D s-crtl.ads		20160516092927 0ebbdb71 system.crtl%s
+D s-exctab.ads		20160516092931 54135002 system.exception_table%s
+D s-ficobl.ads		20160516092933 078245e4 system.file_control_block%s
+D s-finmas.ads		20160516092931 7811a767 system.finalization_masters%s
+D s-finroo.ads		20160516092931 4ff27390 system.finalization_root%s
+D s-oscons.ads		20160516132946 4ac7eb08 system.os_constants%s
+D s-parame.ads		20160516092932 7e2a0d7f system.parameters%s
+D s-pooglo.ads		20160516092927 ede33ef8 system.pool_global%s
+D s-secsta.ads		20160516092931 86a2856d system.secondary_stack%s
+D s-soflin.ads		20160516092929 14e1eb6c system.soft_links%s
+D s-stache.ads		20160516092932 a37c21ec system.stack_checking%s
+D s-stalib.ads		20160516092931 09bd3940 system.standard_library%s
+D s-stoele.ads		20160516092932 2dc34a04 system.storage_elements%s
+D s-stoele.adb		20160516092930 ed88f8fb system.storage_elements%b
+D s-stopoo.ads		20160516092928 b16154c2 system.storage_pools%s
+D s-stposu.ads		20160516092927 97a6219c system.storage_pools.subpools%s
+D s-stratt.ads		20160516092927 aedef97e system.stream_attributes%s
+D s-string.ads		20160516092931 8fe54fb7 system.strings%s
+D s-ststop.ads		20160516092928 e6693757 system.strings.stream_ops%s
+D s-traent.ads		20160516092928 005bf670 system.traceback_entries%s
+D s-unstyp.ads		20160516092930 34867c83 system.unsigned_types%s
+D s-valint.ads		20160516092930 48a52a3f system.val_int%s
+D s-wchcon.ads		20160516092931 1b7d22d2 system.wch_con%s
+X 1 ada.ads
+16K9*Ada 19e8 33|2r3 3r3 4r3 14r8 28r17 53r17 73r14
+X 4 a-comlin.ads
+38K13*Command_Line 139e21 33|2w7 14r12
+41V13*Argument_Count{natural} 33|18s7 35s16 58s16
+48V13*Argument{string} 33|20s39 21s56 22s39 40s32 63s32
+65I9*Exit_Status<integer>
+68i4*Failure{65I9} 33|80r27
+70U14*Set_Exit_Status 33|80s10
+X 11 a-iteint.ads
+24h9 Forward_Iterator
+32h9 Reversible_Iterator<24R9[7|75]>
+X 12 a-stream.ads
+36K13*Streams 87e16 33|3r7 28r21 53r21
+X 13 a-ststio.ads
+39K21*Stream_IO 223e26 33|3w15 28r29 53r29
+42P9*Stream_Access(12|39R9)
+44P9*File_Type 33|33r23 56r24
+67U14*Create 33|36s16 39s16 59s16 62s16
+68p7 File{44P9} 33|36r24 39r24 59r24 62r24
+70a7 Name{string} 33|37r24 40r24 60r24 63r24
+79U14*Close 33|46s13 68s13
+79p22 File{44P9} 33|46r20 68r20
+91V13*Stream{42P9} 33|43s44 66s45
+X 18 a-textio.ads
+49K13*Text_IO 471e16 33|4w7 73r18
+166U14*New_Line 33|77s10 79s10
+263U14*Put_Line 33|75s10 76s10 78s10
+X 21 black.ads
+1K9*Black 5e10 33|8r3 9r3 10r3 29r32 30r15 30r50 43r13 48r13 54r33 55r15
+. 66r13
+X 23 black-http.ads
+1K15*HTTP 28e15 33|8w9 30r56
+6n30*Get{6E9} 33|30r61
+X 31 black-request.ads
+19K15*Request 84e18 33|9w9 29r38 30r21 43r19 48r19
+20R9*Instance 83e17 33|29r46 43r27 48r27
+49V13*Compose{20R9} 33|30s29
+49e22 Method{23|6E9} 33|30r38
+50a22 Host{string} 33|31r38
+51a22 Resource{string} 33|32r38
+X 32 black-response.ads
+11K15*Response 124e19 33|10w9 54r39 55r21 66r19
+12R9*Instance 123e17 33|54r48 55r30 66r28
+X 33 client.adb
+13U11*Client 13b11 83l5 83t11
+16i4 Connection{35|409I9} 24m10 48r52 55r54
+20a10 Host{string} 24r63 31r50
+21i10 Port<integer> 25r63
+22a10 Resource{string} 32r50
+29r13 Request{31|20R9} 44r44 49r44
+33p13 Copy{13|44P9} 36m32 36r32 39m32 39r32 43r52 46m28 46r28
+54r13 Response{32|12R9} 67r42
+56p13 Output{13|44P9} 59m32 59r32 62m32 62r32 66r53 68m28 68r28
+X 34 gnat.ads
+34K9*GNAT 33|6r3 11r3 15r8 34|37e9
+X 35 g-socket.ads
+55K14*Sockets 33|6w8 11r8 15r13 35|1263e17
+409I9*Socket_Type<integer> 33|16r17
+476I9*Port_Type<integer> 33|21r21 21r39
+1004P9*Stream_Access(12|39R9)
+1007V13*Stream{1004P9} 33|48s44 55s46
+X 36 gnat-sockets-convenience.ads
+10K22*Convenience 33|11w16 24r24 36|21e29
+19V13*Connect_To_Server{35|409I9} 33|24s36
+19a32 Host{string} 33|24r55
+20i32 Port{35|476I9} 33|25r55
+

@@ -1,0 +1,106 @@
+V "GNAT Lib v2016"
+A -gnatwa
+A -O2
+A -Wall
+A -gnatA
+A -fstack-check=specific
+A -gnata
+A -gnato
+A -gnatf
+A -gnatwa
+A -gnatVa
+A -gnaty3
+A -gnatya
+A -gnatyb
+A -gnatyc
+A -gnatyd
+A -gnatye
+A -gnatyf
+A -gnatyh
+A -gnatyi
+A -gnatyk
+A -gnatyl
+A -gnatym
+A -gnatyn
+A -gnatyo
+A -gnatyO
+A -gnatyp
+A -gnatyr
+A -gnatys
+A -gnatyt
+A -gnatyu
+A -gnatyx
+A -gnatwe
+A -gnat2005
+A -mtune=generic
+A -march=x86-64
+P SS ZX
+
+RN
+RV NO_EXCEPTION_HANDLERS
+RV NO_EXCEPTION_PROPAGATION
+RV NO_EXCEPTIONS
+RV NO_IMPLICIT_CONDITIONALS
+RV NO_STANDARD_STORAGE_POOLS
+RV NO_IMPLEMENTATION_PRAGMAS
+RV NO_ELABORATION_CODE
+RV SPARK_05
+
+U black.parameter%s	black-parameter.ads	a1a3150b EE OO PK
+W ada%s			ada.ads			ada.ali
+W ada.exceptions%s	a-except.adb		a-except.ali
+W ada.strings%s		a-string.ads		a-string.ali
+W ada.strings.unbounded%s  a-strunb.adb		a-strunb.ali
+W ada.tags%s		a-tags.adb		a-tags.ali
+W black%s		black.ads		black.ali
+W system%s		system.ads		system.ali
+W system.exception_table%s  s-exctab.adb	s-exctab.ali
+W system.standard_library%s  s-stalib.adb	s-stalib.ali
+
+D ada.ads		20160516092928 3ffc8e18 ada%s
+D a-charac.ads		20160516092931 2d3ec45b ada.characters%s
+D a-chlat1.ads		20160516092930 66457d31 ada.characters.latin_1%s
+D a-except.ads		20160516092928 291912d5 ada.exceptions%s
+D a-finali.ads		20160516092931 bf4f806b ada.finalization%s
+D a-stream.ads		20160516092929 119b8fb3 ada.streams%s
+D a-string.ads		20160516092930 90ac6797 ada.strings%s
+D a-strmap.ads		20160516092930 e8bb714a ada.strings.maps%s
+D a-strunb.ads		20160516092928 3f91d4c5 ada.strings.unbounded%s
+D a-tags.ads		20160516092932 01f5e3ef ada.tags%s
+D a-unccon.ads		20160516092931 f9eb8f06 ada.unchecked_conversion%s
+D black.ads		20170415214444 96edd2a0 black%s
+D black-parameter.ads	20170415214444 08df136e black.parameter%s
+D system.ads		20160516092929 6326c08a system%s
+D s-atocou.ads		20160516092932 b45c2d8d system.atomic_counters%s
+D s-exctab.ads		20160516092931 54135002 system.exception_table%s
+D s-finmas.ads		20160516092931 7811a767 system.finalization_masters%s
+D s-finroo.ads		20160516092931 4ff27390 system.finalization_root%s
+D s-parame.ads		20160516092932 7e2a0d7f system.parameters%s
+D s-secsta.ads		20160516092931 86a2856d system.secondary_stack%s
+D s-soflin.ads		20160516092929 14e1eb6c system.soft_links%s
+D s-stache.ads		20160516092932 a37c21ec system.stack_checking%s
+D s-stalib.ads		20160516092931 09bd3940 system.standard_library%s
+D s-stoele.ads		20160516092932 2dc34a04 system.storage_elements%s
+D s-stopoo.ads		20160516092928 b16154c2 system.storage_pools%s
+D s-stposu.ads		20160516092927 97a6219c system.storage_pools.subpools%s
+D s-stratt.ads		20160516092927 aedef97e system.stream_attributes%s
+D s-traent.ads		20160516092928 005bf670 system.traceback_entries%s
+D s-unstyp.ads		20160516092930 34867c83 system.unsigned_types%s
+X 1 ada.ads
+16K9*Ada 19e8 13|2r3 11r16 14r24
+X 7 a-string.ads
+16K13*Strings 35e16 13|2r7 11r20 14r28
+X 9 a-strunb.ads
+76K21*Unbounded 489e26 13|2w15 11r28 14r36
+79R9*Unbounded_String<5|43R9> 473e14 13|11r38 14r46
+X 12 black.ads
+1K9*Black 5e10 13|4r9 20r5
+X 13 black-parameter.ads
+4K15*Parameter 12|1k9 13|20l11 20e20
+6X4*No_Such_Parameter_Key
+7X4*No_Such_Parameter_Value
+9R9*Instance 9d19 18e17
+9b19*With_Value{boolean} 12r15
+11r10*Key{9|79R9}
+14r16*Value{9|79R9}
+

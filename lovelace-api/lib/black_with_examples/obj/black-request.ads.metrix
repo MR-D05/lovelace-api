@@ -1,0 +1,141 @@
+Metrics computed for /home/user/Projects/Black-examples/black/src/black-request.ads
+containing package Black.Request
+
+=== Code line metrics ===
+  all lines           : 84
+  code lines          : 74
+  comment lines       : 0
+  end-of-line comments: 0
+  comment percentage  : 0.00
+  blank lines         : 10
+
+Black.Request (package - library item at lines  19: 84)
+
+=== Code line metrics ===
+   all lines           : 66
+   code lines          : 58
+   comment lines       : 0
+   end-of-line comments: 0
+   comment percentage  : 0.00
+   blank lines         : 8
+
+=== Element metrics ===
+   public types             : 1
+      including
+      tagged types    : 1
+      private types   : 1
+   all type definitions     : 1
+   public subprograms       : 16
+   all statements           : 0
+   all declarations         : 65
+   maximal unit nesting     : 1
+   maximal construct nesting: 1
+   logical SLOC             : 65
+
+   Method (function at lines  23: 23)
+      all parameters           : 1
+         IN parameters         : 1
+         OUT parameters        : 0
+         IN OUT parameters     : 0
+
+   Host (function at lines  24: 24)
+      all parameters           : 1
+         IN parameters         : 1
+         OUT parameters        : 0
+         IN OUT parameters     : 0
+
+   Resource (function at lines  25: 25)
+      all parameters           : 1
+         IN parameters         : 1
+         OUT parameters        : 0
+         IN OUT parameters     : 0
+
+   Parameters (function at lines  26: 26)
+      all parameters           : 1
+         IN parameters         : 1
+         OUT parameters        : 0
+         IN OUT parameters     : 0
+
+   Has_Parameter (function at lines  28: 29)
+      all parameters           : 2
+         IN parameters         : 2
+         OUT parameters        : 0
+         IN OUT parameters     : 0
+
+   Parameter (function at lines  30: 32)
+      all parameters           : 3
+         IN parameters         : 3
+         OUT parameters        : 0
+         IN OUT parameters     : 0
+
+   Parameter (function at lines  33: 34)
+      all parameters           : 2
+         IN parameters         : 2
+         OUT parameters        : 0
+         IN OUT parameters     : 0
+
+   Has_Origin (function at lines  36: 36)
+      all parameters           : 1
+         IN parameters         : 1
+         OUT parameters        : 0
+         IN OUT parameters     : 0
+
+   Origin (function at lines  37: 37)
+      all parameters           : 1
+         IN parameters         : 1
+         OUT parameters        : 0
+         IN OUT parameters     : 0
+
+   Want_Websocket (function at lines  39: 39)
+      all parameters           : 1
+         IN parameters         : 1
+         OUT parameters        : 0
+         IN OUT parameters     : 0
+
+   Websocket_Key (function at lines  40: 40)
+      all parameters           : 1
+         IN parameters         : 1
+         OUT parameters        : 0
+         IN OUT parameters     : 0
+
+   Generate_HTTP (procedure at lines  42: 44)
+      all parameters           : 2
+         IN parameters         : 2
+         OUT parameters        : 0
+         IN OUT parameters     : 0
+
+   Parse_HTTP (function at lines  45: 47)
+      all parameters           : 1
+         IN parameters         : 1
+         OUT parameters        : 0
+         IN OUT parameters     : 0
+
+   Compose (function at lines  49: 51)
+      all parameters           : 3
+         IN parameters         : 3
+         OUT parameters        : 0
+         IN OUT parameters     : 0
+
+   Compose (function at lines  52: 57)
+      all parameters           : 5
+         IN parameters         : 5
+         OUT parameters        : 0
+         IN OUT parameters     : 0
+
+   Websocket (function at lines  58: 60)
+      all parameters           : 3
+         IN parameters         : 3
+         OUT parameters        : 0
+         IN OUT parameters     : 0
+
+   Parse_Method_And_Resource (procedure at lines  62: 64)
+      all parameters           : 2
+         IN parameters         : 1
+         OUT parameters        : 0
+         IN OUT parameters     : 1
+
+   Parse (procedure at lines  65: 66)
+      all parameters           : 2
+         IN parameters         : 1
+         OUT parameters        : 0
+         IN OUT parameters     : 1

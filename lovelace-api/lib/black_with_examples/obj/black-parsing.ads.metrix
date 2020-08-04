@@ -1,0 +1,94 @@
+Metrics computed for /home/user/Projects/Black-examples/black/src/black-parsing.ads
+containing private package Black.Parsing
+
+=== Code line metrics ===
+  all lines           : 42
+  code lines          : 38
+  comment lines       : 0
+  end-of-line comments: 0
+  comment percentage  : 0.00
+  blank lines         : 4
+
+Black.Parsing (package - library item at lines  8: 42)
+
+=== Code line metrics ===
+   all lines           : 35
+   code lines          : 32
+   comment lines       : 0
+   end-of-line comments: 0
+   comment percentage  : 0.00
+   blank lines         : 3
+
+=== Element metrics ===
+   all type definitions     : 2
+   all statements           : 0
+   all declarations         : 33
+   maximal unit nesting     : 1
+   maximal construct nesting: 1
+   logical SLOC             : 33
+
+   Parse (function at lines  9: 10)
+      all parameters           : 1
+         IN parameters         : 1
+         OUT parameters        : 0
+         IN OUT parameters     : 0
+
+   Get (function at lines  13: 14)
+      all parameters           : 1
+         IN parameters         : 1
+         OUT parameters        : 0
+         IN OUT parameters     : 0
+
+   End_Of_Header (function at lines  15: 15)
+      all parameters           : 1
+         IN parameters         : 1
+         OUT parameters        : 0
+         IN OUT parameters     : 0
+
+   Read (procedure at lines  18: 20)
+      all parameters           : 3
+         IN parameters         : 1
+         OUT parameters        : 1
+         IN OUT parameters     : 1
+
+   Parse (function at lines  21: 22)
+      all parameters           : 1
+         IN parameters         : 1
+         OUT parameters        : 0
+         IN OUT parameters     : 0
+
+   Key (function at lines  23: 23)
+      all parameters           : 1
+         IN parameters         : 1
+         OUT parameters        : 0
+         IN OUT parameters     : 0
+
+   Value (function at lines  24: 24)
+      all parameters           : 1
+         IN parameters         : 1
+         OUT parameters        : 0
+         IN OUT parameters     : 0
+
+   Value (function at lines  25: 26)
+      all parameters           : 1
+         IN parameters         : 1
+         OUT parameters        : 0
+         IN OUT parameters     : 0
+
+   Value (function at lines  27: 27)
+      all parameters           : 1
+         IN parameters         : 1
+         OUT parameters        : 0
+         IN OUT parameters     : 0
+
+   Value (function at lines  28: 28)
+      all parameters           : 1
+         IN parameters         : 1
+         OUT parameters        : 0
+         IN OUT parameters     : 0
+
+   Value (function at lines  29: 29)
+      all parameters           : 1
+         IN parameters         : 1
+         OUT parameters        : 0
+         IN OUT parameters     : 0

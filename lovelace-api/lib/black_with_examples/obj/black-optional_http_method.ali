@@ -1,0 +1,78 @@
+V "GNAT Lib v2016"
+A -gnatwa
+A -O2
+A -Wall
+A -gnatA
+A -fstack-check=specific
+A -gnata
+A -gnato
+A -gnatf
+A -gnatwa
+A -gnatVa
+A -gnaty3
+A -gnatya
+A -gnatyb
+A -gnatyc
+A -gnatyd
+A -gnatye
+A -gnatyf
+A -gnatyh
+A -gnatyi
+A -gnatyk
+A -gnatyl
+A -gnatym
+A -gnatyn
+A -gnatyo
+A -gnatyO
+A -gnatyp
+A -gnatyr
+A -gnatys
+A -gnatyt
+A -gnatyu
+A -gnatyx
+A -gnatwe
+A -gnat2005
+A -mtune=generic
+A -march=x86-64
+P ZX
+
+RN
+RV NO_IMPLICIT_CONDITIONALS
+RV NO_STANDARD_STORAGE_POOLS
+RV NO_DYNAMIC_SIZED_OBJECTS
+RV NO_IMPLEMENTATION_PRAGMAS
+RV SPARK_05
+
+U black.optional_http_method%b  black-optional_http_method.ads  d25fcbe0 NE OO PK
+W black%s		black.ads		black.ali
+W black.generic_optional%s  black-generic_optional.adb  black-generic_optional.ali  AD
+W black.http%s		black-http.adb		black-http.ali
+W interfaces%s		interfac.ads		interfac.ali
+
+U black.optional_http_method%s  black-optional_http_method.ads  2d3ab89b EB NE OO PK
+W black%s		black.ads		black.ali
+W black.generic_optional%s  black-generic_optional.adb  black-generic_optional.ali  AD
+W black.http%s		black-http.adb		black-http.ali
+
+D ada.ads		20160516092928 3ffc8e18 ada%s
+D a-unccon.ads		20160516092931 f9eb8f06 ada.unchecked_conversion%s
+D black.ads		20170415214444 96edd2a0 black%s
+D black-generic_optional.ads  20170415214444 d5f92c6c black.generic_optional%s
+D black-generic_optional.adb  20170415214444 f7c430e9 black.generic_optional%b
+D black-http.ads	20170415214444 bc718db7 black.http%s
+D black-optional_http_method.ads  20170415214444 d25fcbe0 black.optional_http_method%s
+D black-optional_http_method.ads  20170415214444 d25fcbe0 black.optional_http_method%b
+D interfac.ads		20160516092928 5ab55268 interfaces%s
+D system.ads		20160516092929 6326c08a system%s
+D s-exctab.ads		20160516092931 54135002 system.exception_table%s
+D s-stalib.ads		20160516092931 09bd3940 system.standard_library%s
+X 3 black.ads
+1K9*Black 5e10 8|1r6 2r6 5r9 6r7
+X 4 black-generic_optional.ads
+4k15*Generic_Optional 21e27 8|1w12 6r13
+X 6 black-http.ads
+1K15*HTTP 28e15 8|2w12 6r31
+6E9*Methods 6e75 8|6r36
+X 8 black-optional_http_method.ads
+5K15*Optional_HTTP_Method[4|4] 3|1k9
+

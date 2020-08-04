@@ -1,0 +1,206 @@
+V "GNAT Lib v2016"
+A -gnatwa
+A -O2
+A -Wall
+A -gnatA
+A -fstack-check=specific
+A -gnata
+A -gnato
+A -gnatf
+A -gnatwa
+A -gnatVa
+A -gnaty3
+A -gnatya
+A -gnatyb
+A -gnatyc
+A -gnatyd
+A -gnatye
+A -gnatyf
+A -gnatyh
+A -gnatyi
+A -gnatyk
+A -gnatyl
+A -gnatym
+A -gnatyn
+A -gnatyo
+A -gnatyO
+A -gnatyp
+A -gnatyr
+A -gnatys
+A -gnatyt
+A -gnatyu
+A -gnatyx
+A -gnatwe
+A -gnat2005
+A -mtune=generic
+A -march=x86-64
+P SS ZX
+
+RN
+RV NO_DISPATCH
+RV NO_ENUMERATION_MAPS
+RV NO_EXCEPTION_HANDLERS
+RV NO_EXCEPTION_PROPAGATION
+RV NO_EXCEPTIONS
+RV NO_FIXED_POINT
+RV NO_IMPLICIT_CONDITIONALS
+RV NO_LOCAL_ALLOCATORS
+RV NO_NESTED_FINALIZATION
+RV NO_SECONDARY_STACK
+RV NO_STANDARD_STORAGE_POOLS
+RV NO_STREAMS
+RV NO_DYNAMIC_SIZED_OBJECTS
+RV NO_IMPLEMENTATION_PRAGMAS
+RV SPARK_05
+
+U black.text_io%b	black-text_io.adb	5eea256b NE OO PK
+W ada%s			ada.ads			ada.ali
+W ada.characters%s	a-charac.ads		a-charac.ali
+W ada.characters.handling%s  a-chahan.adb	a-chahan.ali
+W ada.characters.latin_1%s  a-chlat1.ads	a-chlat1.ali
+W ada.exceptions%s	a-except.adb		a-except.ali
+W ada.io_exceptions%s	a-ioexce.ads		a-ioexce.ali
+W ada.streams%s		a-stream.adb		a-stream.ali
+W ada.strings%s		a-string.ads		a-string.ali
+W ada.strings.fixed%s	a-strfix.adb		a-strfix.ali
+W ada.tags%s		a-tags.adb		a-tags.ali
+W black%s		black.ads		black.ali
+W interfaces%s		interfac.ads		interfac.ali
+W system.assertions%s	s-assert.adb		s-assert.ali
+W system.img_bool%s	s-imgboo.adb		s-imgboo.ali
+W system.img_int%s	s-imgint.adb		s-imgint.ali
+W system.img_lld%s	s-imglld.adb		s-imglld.ali
+W system.secondary_stack%s  s-secsta.adb	s-secsta.ali
+W system.soft_links%s	s-soflin.adb		s-soflin.ali
+W system.stream_attributes%s  s-stratt.adb	s-stratt.ali
+W system.strings.stream_ops%s  s-ststop.adb	s-ststop.ali
+
+U black.text_io%s	black-text_io.ads	7de6382d EE NE OO PK
+W ada%s			ada.ads			ada.ali
+W ada.streams%s		a-stream.adb		a-stream.ali
+W ada.strings%s		a-string.ads		a-string.ali
+W ada.strings.unbounded%s  a-strunb.adb		a-strunb.ali
+W black%s		black.ads		black.ali
+
+D ada.ads		20160516092928 3ffc8e18 ada%s
+D a-charac.ads		20160516092931 2d3ec45b ada.characters%s
+D a-chahan.ads		20160516092929 1601a50f ada.characters.handling%s
+D a-chlat1.ads		20160516092930 66457d31 ada.characters.latin_1%s
+D a-except.ads		20160516092928 291912d5 ada.exceptions%s
+D a-finali.ads		20160516092931 bf4f806b ada.finalization%s
+D a-ioexce.ads		20160516092927 e4a01f64 ada.io_exceptions%s
+D a-stream.ads		20160516092929 119b8fb3 ada.streams%s
+D a-string.ads		20160516092930 90ac6797 ada.strings%s
+D a-strfix.ads		20160516092932 d07c346e ada.strings.fixed%s
+D a-strmap.ads		20160516092930 e8bb714a ada.strings.maps%s
+D a-strunb.ads		20160516092928 3f91d4c5 ada.strings.unbounded%s
+D a-tags.ads		20160516092932 01f5e3ef ada.tags%s
+D a-unccon.ads		20160516092931 f9eb8f06 ada.unchecked_conversion%s
+D a-uncdea.ads		20160516092931 f15a5ed1 ada.unchecked_deallocation%s
+D black.ads		20170415214444 96edd2a0 black%s
+D black-text_io.ads	20170415214444 c501b1fb black.text_io%s
+D black-text_io.adb	20170415214444 4fdf0033 black.text_io%b
+D interfac.ads		20160516092928 5ab55268 interfaces%s
+D system.ads		20160516092929 6326c08a system%s
+D s-assert.ads		20160516092931 cd8d2c94 system.assertions%s
+D s-atocou.ads		20160516092932 b45c2d8d system.atomic_counters%s
+D s-exctab.ads		20160516092931 54135002 system.exception_table%s
+D s-finmas.ads		20160516092931 7811a767 system.finalization_masters%s
+D s-finroo.ads		20160516092931 4ff27390 system.finalization_root%s
+D s-imgboo.ads		20160516092927 f5d971eb system.img_bool%s
+D s-imgint.ads		20160516092928 02dbe0c2 system.img_int%s
+D s-imglld.ads		20160516092932 f3220969 system.img_lld%s
+D s-parame.ads		20160516092932 7e2a0d7f system.parameters%s
+D s-secsta.ads		20160516092931 86a2856d system.secondary_stack%s
+D s-soflin.ads		20160516092929 14e1eb6c system.soft_links%s
+D s-stache.ads		20160516092932 a37c21ec system.stack_checking%s
+D s-stalib.ads		20160516092931 09bd3940 system.standard_library%s
+D s-stoele.ads		20160516092932 2dc34a04 system.storage_elements%s
+D s-stopoo.ads		20160516092928 b16154c2 system.storage_pools%s
+D s-stposu.ads		20160516092927 97a6219c system.storage_pools.subpools%s
+D s-stratt.ads		20160516092927 aedef97e system.stream_attributes%s
+D s-string.ads		20160516092931 8fe54fb7 system.strings%s
+D s-ststop.ads		20160516092928 e6693757 system.strings.stream_ops%s
+D s-traent.ads		20160516092928 005bf670 system.traceback_entries%s
+D s-unstyp.ads		20160516092930 34867c83 system.unsigned_types%s
+X 1 ada.ads
+16K9*Ada 19e8 17|2r3 3r3 8r32 11r32 12r23 14r32 17r32 20r32 21r23 23r32 26r32
+. 29r32 32r32 35r32 38r32 39r13 18|2r3 3r3 4r3 5r3 6r3 10r32 13r14 17r32
+. 18r13 19r11 19r35 38r12 47r32 50r22 50r50 54r32 56r22 62r32 63r23 66r22
+. 70r32 72r11 79r32 84r22 84r50 88r32 89r23 92r27 96r32 98r11 105r32 107r11
+. 107r24 114r32 116r11 116r24
+X 2 a-charac.ads
+16K13*Characters 18e19 18|2r7 3r7 19r15 50r26 50r54 72r15 84r26 84r54 98r15
+X 3 a-chahan.ads
+36K24*Handling 159e28 18|2w18 72r26 98r26
+70V13*To_Lower{string} 18|75s22 101s27
+X 4 a-chlat1.ads
+18K24*Latin_1 296e27 18|3w18 19r26 50r37 50r65 84r37 84r65
+35e4*LF{character} 18|28r23 50r73 84r73
+38e4*CR{character} 18|26r20 31r32 50r45 84r45
+X 7 a-ioexce.ads
+18K13*IO_Exceptions 30e22 18|4w7 38r16
+26X4*End_Error 18|38r30
+X 8 a-stream.ads
+36K13*Streams 87e16 17|2w7 8r36 11r36 14r36 17r36 20r36 23r36 26r36 29r36
+. 32r36 35r36 38r36 18|10r36 17r36 47r36 54r36 56r26 62r36 70r36 79r36 88r36
+. 96r36 105r36 114r36
+39H9*Root_Stream_Type 70e64 17|8r44 11r44 14r44 17r44 20r44 23r44 26r44 29r44
+. 32r44 35r44 38r44 18|10r44 17r44 47r44 54r44 62r44 70r44 79r44 88r44 96r44
+. 105r44 114r44
+42M9*Stream_Element 18|56r34
+X 9 a-string.ads
+16K13*Strings 35e16 17|3r7 12r27 21r27 39r17 18|5w7 6r7 13r18 18r17 19r39
+. 63r27 66r26 89r27 92r31 107r15 107r28 116r15 116r28
+33n37*Both{33E9} 18|110r55 119r56
+X 10 a-strfix.ads
+18K21*Fixed 251e22 18|6w15 107r36 116r36
+195V13*Trim{string} 18|110s27 119s27
+X 12 a-strunb.ads
+76K21*Unbounded 489e26 17|3w15 12r35 21r35 39r25 18|13r26 18r25 19r47 63r35
+. 66r34 89r35 92r39
+79R9*Unbounded_String<6|43R9> 473e14 17|12r45 21r45 39r35 18|18r35 20r16
+. 63r45 89r45
+82r4*Null_Unbounded_String{79R9} 18|20r36 39r22
+100V13*To_String{string} 18|13s36 66s44 92s49
+111U14*Append 18|31s16
+115U14*Append 18|34s13
+166V14*"="{boolean} 18|39s20
+X 16 black.ads
+1K9*Black 5e10 17|6r9 40r5 18|8r14 121r5
+X 17 black-text_io.ads
+6K15*Text_IO 16|1k9 17|40l11 40e18 18|8b20 121l11 121t18
+7U14*Put 8^7 9>7 18|49s7 53b14 59l8 59t11 65s7 74s7 82s7
+8p7 Target(8|39R9) 18|49r12 54b7 58r21 65r12 74r12 82r12
+9a7 Item{string} 18|50r12 55b7 58r29 66r12 75r12 83r12
+10U14*Put 11^7 12>7 18|61b14 67l8 67t11
+11p7 Target(8|39R9) 18|62b7 65r22
+12r7 Item{12|79R9} 18|63b7 66r55
+13U14*Put 14^7 15>7 18|69b14 76l8 76t11
+14p7 Target(8|39R9) 18|70b7 74r22
+15b7 Item{boolean} 18|71b7 75r47
+16U14*Put_Line 17^7 18>7 18|78b14 85l8 85t16 91s7 100s7 109s7 118s7
+17p7 Target(8|39R9) 18|79b7 82r22 91r17 100r17 109r17 118r17
+18a7 Item{string} 18|80b7 83r22 92r17 101r17 110r17 119r17
+19U14*Put_Line 20^7 21>7 18|87b14 93l8 93t16
+20p7 Target(8|39R9) 18|88b7 91r27
+21r7 Item{12|79R9} 18|89b7 92r60
+22U14*Put_Line 23^7 24>7 18|95b14 102l8 102t16
+23p7 Target(8|39R9) 18|96b7 100r27
+24b7 Item{boolean} 18|97b7 101r52
+25U14*Put_Line 26^7 27>7 18|104b14 111l8 111t16
+26p7 Target(8|39R9) 18|105b7 109r27
+27i7 Item{integer} 18|106b7 110r48
+28U14*Put_Line 29^7 30>7 18|113b14 120l8 120t16
+29p7 Target(8|39R9) 18|114b7 118r27
+30o7 Item{duration} 18|115b7 119r49
+31U14*New_Line 32^7 18|46b14 51l8 51t16
+32p7 Target(8|39R9) 18|47b7 49r22
+34V13*Get_Line{string} 35^7 18|9b13 14l8 14t16
+35p7 Stream(8|39R9) 18|10b7 13r57
+37V13*Get_Line{12|79R9} 38^7 18|13s47 16b13 44l8 44t16
+38p7 Stream(8|39R9) 18|17b7 24r26 27r29
+X 18 black-text_io.adb
+20r7 Buffer{12|79R9} 29r23 31m24 31r24 34m21 34r21 39r13 42r20
+21e7 Next{character} 24m34 24r34 26r13 27m37 27r37 28r16 31r37 34r29
+

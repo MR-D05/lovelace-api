@@ -1,0 +1,60 @@
+Metrics computed for /home/user/Projects/Black-examples/black/src/black-mime_types.ads
+containing package Black.MIME_Types
+
+=== Code line metrics ===
+  all lines           : 10
+  code lines          : 9
+  comment lines       : 0
+  end-of-line comments: 0
+  comment percentage  : 0.00
+  blank lines         : 1
+
+Black.MIME_Types (package - library item at lines  1: 10)
+
+=== Code line metrics ===
+   all lines           : 10
+   code lines          : 9
+   comment lines       : 0
+   end-of-line comments: 0
+   comment percentage  : 0.00
+   blank lines         : 1
+
+=== Element metrics ===
+   public subprograms       : 0
+   all statements           : 0
+   all declarations         : 6
+   maximal unit nesting     : 1
+   maximal construct nesting: 2
+   logical SLOC             : 6
+
+   Application (package at lines  2: 5)
+
+   === Code line metrics ===
+      all lines           : 4
+      code lines          : 4
+      comment lines       : 0
+      end-of-line comments: 0
+      comment percentage  : 0.00
+      blank lines         : 0
+
+   === Element metrics ===
+      all statements           : 0
+      all declarations         : 3
+      maximal construct nesting: 1
+      logical SLOC             : 3
+
+   Text (package at lines  7: 9)
+
+   === Code line metrics ===
+      all lines           : 3
+      code lines          : 3
+      comment lines       : 0
+      end-of-line comments: 0
+      comment percentage  : 0.00
+      blank lines         : 0
+
+   === Element metrics ===
+      all statements           : 0
+      all declarations         : 2
+      maximal construct nesting: 1
+      logical SLOC             : 2

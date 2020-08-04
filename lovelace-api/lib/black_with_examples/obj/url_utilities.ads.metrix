@@ -1,0 +1,40 @@
+Metrics computed for /home/user/Projects/Black-examples/libesl/src/url_utilities.ads
+containing package URL_Utilities
+
+=== Code line metrics ===
+  all lines           : 52
+  code lines          : 17
+  comment lines       : 25
+  end-of-line comments: 0
+  comment percentage  : 59.52
+  blank lines         : 10
+
+URL_Utilities (package - library item at lines  21: 52)
+
+=== Code line metrics ===
+   all lines           : 32
+   code lines          : 16
+   comment lines       : 8
+   end-of-line comments: 0
+   comment percentage  : 33.33
+   blank lines         : 8
+
+=== Element metrics ===
+   public subprograms       : 2
+   all statements           : 0
+   all declarations         : 8
+   maximal unit nesting     : 1
+   maximal construct nesting: 1
+   logical SLOC             : 8
+
+   Encode (function at lines  29: 32)
+      all parameters           : 2
+         IN parameters         : 2
+         OUT parameters        : 0
+         IN OUT parameters     : 0
+
+   Decode (function at lines  38: 38)
+      all parameters           : 1
+         IN parameters         : 1
+         OUT parameters        : 0
+         IN OUT parameters     : 0

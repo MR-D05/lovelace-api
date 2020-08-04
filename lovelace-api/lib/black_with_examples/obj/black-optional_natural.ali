@@ -1,0 +1,72 @@
+V "GNAT Lib v2016"
+A -gnatwa
+A -O2
+A -Wall
+A -gnatA
+A -fstack-check=specific
+A -gnata
+A -gnato
+A -gnatf
+A -gnatwa
+A -gnatVa
+A -gnaty3
+A -gnatya
+A -gnatyb
+A -gnatyc
+A -gnatyd
+A -gnatye
+A -gnatyf
+A -gnatyh
+A -gnatyi
+A -gnatyk
+A -gnatyl
+A -gnatym
+A -gnatyn
+A -gnatyo
+A -gnatyO
+A -gnatyp
+A -gnatyr
+A -gnatys
+A -gnatyt
+A -gnatyu
+A -gnatyx
+A -gnatwe
+A -gnat2005
+A -mtune=generic
+A -march=x86-64
+P ZX
+
+RN
+RV NO_IMPLICIT_CONDITIONALS
+RV NO_STANDARD_STORAGE_POOLS
+RV NO_DYNAMIC_SIZED_OBJECTS
+RV NO_IMPLEMENTATION_PRAGMAS
+RV SPARK_05
+
+U black.optional_natural%b  black-optional_natural.ads  b82c289f NE OO PK
+W black%s		black.ads		black.ali
+W black.generic_optional%s  black-generic_optional.adb  black-generic_optional.ali  AD
+W interfaces%s		interfac.ads		interfac.ali
+
+U black.optional_natural%s  black-optional_natural.ads  fb38d653 EB NE OO PK
+W black%s		black.ads		black.ali
+W black.generic_optional%s  black-generic_optional.adb  black-generic_optional.ali  AD
+
+D ada.ads		20160516092928 3ffc8e18 ada%s
+D a-unccon.ads		20160516092931 f9eb8f06 ada.unchecked_conversion%s
+D black.ads		20170415214444 96edd2a0 black%s
+D black-generic_optional.ads  20170415214444 d5f92c6c black.generic_optional%s
+D black-generic_optional.adb  20170415214444 f7c430e9 black.generic_optional%b
+D black-optional_natural.ads  20170415214444 b82c289f black.optional_natural%s
+D black-optional_natural.ads  20170415214444 b82c289f black.optional_natural%b
+D interfac.ads		20160516092928 5ab55268 interfaces%s
+D system.ads		20160516092929 6326c08a system%s
+D s-exctab.ads		20160516092931 54135002 system.exception_table%s
+D s-stalib.ads		20160516092931 09bd3940 system.standard_library%s
+X 3 black.ads
+1K9*Black 5e10 7|1r6 4r9 5r7
+X 4 black-generic_optional.ads
+4k15*Generic_Optional 21e27 7|1w12 5r13
+X 7 black-optional_natural.ads
+4K15*Optional_Natural[4|4] 3|1k9
+

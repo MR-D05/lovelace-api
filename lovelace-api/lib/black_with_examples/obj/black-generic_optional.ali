@@ -1,0 +1,74 @@
+V "GNAT Lib v2016"
+A -gnatwa
+A -O2
+A -Wall
+A -gnatA
+A -fstack-check=specific
+A -gnata
+A -gnato
+A -gnatf
+A -gnatwa
+A -gnatVa
+A -gnaty3
+A -gnatya
+A -gnatyb
+A -gnatyc
+A -gnatyd
+A -gnatye
+A -gnatyf
+A -gnatyh
+A -gnatyi
+A -gnatyk
+A -gnatyl
+A -gnatym
+A -gnatyn
+A -gnatyo
+A -gnatyO
+A -gnatyp
+A -gnatyr
+A -gnatys
+A -gnatyt
+A -gnatyu
+A -gnatyx
+A -gnatwe
+A -gnat2005
+A -mtune=generic
+A -march=x86-64
+P ZX
+
+RN
+RV NO_DYNAMIC_SIZED_OBJECTS
+RV NO_IMPLEMENTATION_PRAGMAS
+RV SPARK_05
+
+U black.generic_optional%b  black-generic_optional.adb  223d1c85 NE OO PK GE
+W black%s		black.ads		black.ali
+
+U black.generic_optional%s  black-generic_optional.ads  4314fecc BN EE NE OO PK GE
+W black%s		black.ads		black.ali
+
+D ada.ads		20160516092928 3ffc8e18 ada%s
+D a-unccon.ads		20160516092931 f9eb8f06 ada.unchecked_conversion%s
+D black.ads		20170415214444 96edd2a0 black%s
+D black-generic_optional.ads  20170415214444 d5f92c6c black.generic_optional%s
+D black-generic_optional.adb  20170415214444 f7c430e9 black.generic_optional%b
+D system.ads		20160516092929 6326c08a system%s
+D s-exctab.ads		20160516092931 54135002 system.exception_table%s
+D s-stalib.ads		20160516092931 09bd3940 system.standard_library%s
+X 3 black.ads
+1K9*Black 5e10 4|4r9 21r5 5|1r14 21r5
+X 4 black-generic_optional.ads
+3+9 Content_Type 9r24 15r28 17r29 20r29 5|3r28 9r29 16r29
+4k15*Generic_Optional 3|1k9 4|3z9 21l11 21e27 5|1b20 21l11 21t27
+5R9*Instance 5d19 13e17 15r49 18r29 19r29 5|3r49 10r29 15r29
+5b19 Set{boolean} 7r15 5|5m15 12r20 18r19
+9*16 Value{3+9} 5|6m15 12r46 18r37
+15V14*"+"{5R9} 15>18 5|3b14 7l9 7t11
+15*18 Item{3+9} 5|3b18 6r24
+17V14*"="{boolean} 17>18 18>18 5|9b14 13l9 13t11
+17*18 Left{3+9} 5|9b18 12r33
+18r18 Right{5R9} 5|10b18 12r14 12r40
+19V14*"="{boolean} 19>18 20>18 5|15b14 19l9 19t11
+19r18 Left{5R9} 5|15b18 18r14 18r32
+20*18 Right{3+9} 5|16b18 18r45
+

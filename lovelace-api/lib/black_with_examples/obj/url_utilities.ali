@@ -1,0 +1,133 @@
+V "GNAT Lib v2016"
+A -gnatwa
+A -O2
+A -Wall
+A -gnatA
+A -fstack-check=specific
+A -gnata
+A -gnato
+A -gnatf
+A -gnatwa
+A -gnatVa
+A -gnaty3
+A -gnatya
+A -gnatyb
+A -gnatyc
+A -gnatyd
+A -gnatye
+A -gnatyf
+A -gnatyh
+A -gnatyi
+A -gnatyk
+A -gnatyl
+A -gnatym
+A -gnatyn
+A -gnatyo
+A -gnatyO
+A -gnatyp
+A -gnatyr
+A -gnatys
+A -gnatyt
+A -gnatyu
+A -gnatyx
+A -gnatwe
+A -gnat2005
+A -mtune=generic
+A -march=x86-64
+P SS ZX
+
+RN
+RV NO_SECONDARY_STACK
+RV NO_STANDARD_STORAGE_POOLS
+RV NO_DYNAMIC_SIZED_OBJECTS
+RV NO_IMPLEMENTATION_PRAGMAS
+RV NO_ELABORATION_CODE
+RV SPARK_05
+
+U url_utilities%b	url_utilities.adb	298ec06d OO PK
+W ada%s			ada.ads			ada.ali
+W ada.characters%s	a-charac.ads		a-charac.ali
+W ada.characters.handling%s  a-chahan.adb	a-chahan.ali
+W hex_utilities%s	hex_utilities.adb	hex_utilities.ali  AD
+W interfaces%s		interfac.ads		interfac.ali
+W system.secondary_stack%s  s-secsta.adb	s-secsta.ali
+
+U url_utilities%s	url_utilities.ads	744cd0fd EE OO PK
+W ada%s			ada.ads			ada.ali
+W ada.strings%s		a-string.ads		a-string.ali
+W ada.strings.maps%s	a-strmap.adb		a-strmap.ali
+
+D ada.ads		20160516092928 3ffc8e18 ada%s
+D a-charac.ads		20160516092931 2d3ec45b ada.characters%s
+D a-chahan.ads		20160516092929 1601a50f ada.characters.handling%s
+D a-chlat1.ads		20160516092930 66457d31 ada.characters.latin_1%s
+D a-string.ads		20160516092930 90ac6797 ada.strings%s
+D a-strmap.ads		20160516092930 e8bb714a ada.strings.maps%s
+D a-unccon.ads		20160516092931 f9eb8f06 ada.unchecked_conversion%s
+D hex_utilities.ads	20170415214449 051621f5 hex_utilities%s
+D interfac.ads		20160516092928 5ab55268 interfaces%s
+D system.ads		20160516092929 6326c08a system%s
+D s-exctab.ads		20160516092931 54135002 system.exception_table%s
+D s-secsta.ads		20160516092931 86a2856d system.secondary_stack%s
+D s-stalib.ads		20160516092931 09bd3940 system.standard_library%s
+D s-stoele.ads		20160516092932 2dc34a04 system.storage_elements%s
+D s-unstyp.ads		20160516092930 34867c83 system.unsigned_types%s
+D url_utilities.ads	20170415214449 9cf7a1b7 url_utilities%s
+D url_utilities.adb	20170415214449 a66ee520 url_utilities%b
+X 1 ada.ads
+16K9*Ada 19e8 16|19r6 27r36 31r22 43r13 45r36 46r9 50r8 17|18r6 45r13 86r21
+. 87r21 114r22 122r13
+X 2 a-charac.ads
+16K13*Characters 18e19 17|18r10 86r25 87r25
+X 3 a-chahan.ads
+36K24*Handling 159e28 17|18w21 86r36 87r36
+53V13*Is_Hexadecimal_Digit{boolean} 17|86s45 87s45
+X 5 a-string.ads
+16K13*Strings 35e16 16|19r10 27r40 31r26 43r17 45r40 46r13 50r12 17|45r17
+. 114r26 122r17
+X 6 a-strmap.ads
+38K21*Maps 411e21 16|19w18 27r48 31r34 43r25 45r48 46r21 50r20 17|45r25 114r34
+. 122r25
+46A9*Character_Set<137A9> 16|27r53 31r39 43r30 45r53 17|114r39
+57e7*Low{character} 16|47m20
+58e7*High{character} 16|48m20
+66V13*To_Set{46A9} 16|46s26
+66r24 Span{56R9} 16|47r11
+78V14*"or"{46A9} 16|49s6
+82V13*Is_In{boolean} 17|45s30 122s30
+98V13*To_Set{46A9} 16|50s25
+137A9 Character_Set_Internal(boolean)<character>
+X 8 hex_utilities.ads
+20K9*Hex_Utilities 31e18 17|20w6 60r14 90r16
+22V13*Hex{string} 17|60s28
+27V13*Hex_Value{natural} 17|90s30
+X 16 url_utilities.ads
+21K9*URL_Utilities 45E4 52l5 52e18 17|22b14 147l5 147t18
+27a4*Default_Encoding_Set{6|46A9} 31r56 45c4 17|45r40 114r56
+29V13*Encode{string} 30>7 31>7 17|112b13 145l8 145t14
+30a7 Str{string} 17|113b7 118r28 121r16 122r37 129r16 131r48 133r42 140r24
+31a7 Encoding_Set{6|46A9} 17|114b7 122r46
+38V13*Decode{string} 38>21 17|72b13 106l8 106t14
+38a21 Str{string} 17|72b21 73r26 75r25 77r10 84r13 85r30 86r67 87r67 90r41
+. 93r16 98r24 102r24
+X 17 url_utilities.adb
+23A12 Escape_Code{string}<integer> 25r27 27r41 32r43 58r41
+25a4 Not_Escaped{23A12} 48r27
+27V13 Code{23A12} 27>19 28r19 46s27 58b13 61l8 61t12 133s36
+27e19 C{character} 58b19 60r48
+31E12 ASCII_7{character} 32r31
+32A9 ASCII_7_Set(23A12)<character> 34r37 41r37 42r16 63r26
+34V13 Build_Hex_Escape{32A9} 41b13 52l8 52t24 63s42
+42a7 Result{32A9} 46m13 48m13 51r14
+44e11 C{character} 45r37 46r21 46r33 48r21
+63a4 Hex_Escape{32A9} 131r36
+73a7 Res{string} 89m13 95m13 98m13 105r14
+74i7 K{natural} 82m10 82r15 89r18 95r18 98r18 105r24
+75i7 I{positive} 84r18 85r21 86r72 87r72 90r46 90r55 91m13 91r18 93r21 98r29
+. 101m10 101r15 102r20
+117e7 C_128{character} 129r26
+118a7 Res{string} 126m13 131m16 133m16 140m13 144r14
+119i7 K{natural} 125m13 125r18 126r18 127m13 127r18 131r21 131r26 133r21
+. 133r26 136m13 136r18 139m13 139r18 140r18 144r24
+121i11 I{integer} 122r42 129r21 131r53 133r47 140r29
+

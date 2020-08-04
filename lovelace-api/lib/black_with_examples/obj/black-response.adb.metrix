@@ -1,0 +1,758 @@
+Metrics computed for /home/user/Projects/Black-examples/black/src/black-response.adb
+containing package body Black.Response
+
+=== Code line metrics ===
+  all lines           : 556
+  code lines          : 500
+  comment lines       : 3
+  end-of-line comments: 0
+  comment percentage  : 0.59
+  blank lines         : 53
+
+Black.Response (package body - library item at lines  12: 556)
+
+=== Code line metrics ===
+   all lines           : 545
+   code lines          : 490
+   comment lines       : 3
+   end-of-line comments: 0
+   comment percentage  : 0.60
+   blank lines         : 52
+
+=== Element metrics ===
+   all subprogram bodies    : 28
+   all statements           : 135
+   all declarations         : 115
+   maximal unit nesting     : 2
+   maximal construct nesting: 7
+   logical SLOC             : 250
+
+   Parse (function at lines  13: 13)
+      all parameters           : 1
+         IN parameters         : 1
+         OUT parameters        : 0
+         IN OUT parameters     : 0
+
+   Put_Line (procedure at lines  15: 17)
+      all parameters           : 2
+         IN parameters         : 2
+         OUT parameters        : 0
+         IN OUT parameters     : 0
+
+   Put_Line (procedure at lines  18: 20)
+      all parameters           : 2
+         IN parameters         : 2
+         OUT parameters        : 0
+         IN OUT parameters     : 0
+
+   Bad_Request (function body at lines  22: 30)
+
+   === Code line metrics ===
+      all lines           : 9
+      code lines          : 9
+      comment lines       : 0
+      end-of-line comments: 0
+      comment percentage  : 0.00
+      blank lines         : 0
+
+   === Element metrics ===
+      all statements           : 1
+      all declarations         : 3
+      maximal construct nesting: 1
+      logical SLOC             : 4
+
+   === Complexity metrics ===
+      statement complexity     : 1
+      expression complexity    : 0
+      cyclomatic complexity    : 1
+      essential complexity     : 1
+      maximum loop nesting     : 0
+      extra exit points        : 0
+
+   Content (function body at lines  32: 37)
+
+   === Code line metrics ===
+      all lines           : 6
+      code lines          : 4
+      comment lines       : 2
+      end-of-line comments: 0
+      comment percentage  : 33.33
+      blank lines         : 0
+
+   === Element metrics ===
+      all statements           : 1
+      all declarations         : 2
+      maximal construct nesting: 1
+      logical SLOC             : 3
+
+   === Complexity metrics ===
+      statement complexity     : 1
+      expression complexity    : 0
+      cyclomatic complexity    : 1
+      essential complexity     : 1
+      maximum loop nesting     : 0
+      extra exit points        : 0
+
+   Content_Type (function body at lines  39: 42)
+
+   === Code line metrics ===
+      all lines           : 4
+      code lines          : 4
+      comment lines       : 0
+      end-of-line comments: 0
+      comment percentage  : 0.00
+      blank lines         : 0
+
+   === Element metrics ===
+      all statements           : 1
+      all declarations         : 2
+      maximal construct nesting: 1
+      logical SLOC             : 3
+
+   === Complexity metrics ===
+      statement complexity     : 1
+      expression complexity    : 0
+      cyclomatic complexity    : 1
+      essential complexity     : 1
+      maximum loop nesting     : 0
+      extra exit points        : 0
+
+   Create (function body at lines  44: 101)
+
+   === Code line metrics ===
+      all lines           : 58
+      code lines          : 58
+      comment lines       : 0
+      end-of-line comments: 0
+      comment percentage  : 0.00
+      blank lines         : 0
+
+   === Element metrics ===
+      all statements           : 11
+      all declarations         : 2
+      maximal construct nesting: 2
+      logical SLOC             : 13
+
+   === Complexity metrics ===
+      statement complexity     : 10
+      expression complexity    : 0
+      cyclomatic complexity    : 10
+      essential complexity     : 10
+      maximum loop nesting     : 0
+      extra exit points        : 9
+
+   Forbidden (function body at lines  103: 111)
+
+   === Code line metrics ===
+      all lines           : 9
+      code lines          : 9
+      comment lines       : 0
+      end-of-line comments: 0
+      comment percentage  : 0.00
+      blank lines         : 0
+
+   === Element metrics ===
+      all statements           : 1
+      all declarations         : 3
+      maximal construct nesting: 1
+      logical SLOC             : 4
+
+   === Complexity metrics ===
+      statement complexity     : 1
+      expression complexity    : 0
+      cyclomatic complexity    : 1
+      essential complexity     : 1
+      maximum loop nesting     : 0
+      extra exit points        : 0
+
+   Input_HTTP (function body at lines  113: 180)
+
+   === Code line metrics ===
+      all lines           : 68
+      code lines          : 64
+      comment lines       : 1
+      end-of-line comments: 0
+      comment percentage  : 1.53
+      blank lines         : 3
+
+   === Element metrics ===
+      all statements           : 24
+      all declarations         : 11
+      maximal construct nesting: 4
+      logical SLOC             : 35
+
+   === Complexity metrics ===
+      statement complexity     : 11
+      expression complexity    : 0
+      cyclomatic complexity    : 11
+      essential complexity     : 1
+      maximum loop nesting     : 1
+      extra exit points        : 0
+
+   No_Content (function body at lines  182: 188)
+
+   === Code line metrics ===
+      all lines           : 7
+      code lines          : 7
+      comment lines       : 0
+      end-of-line comments: 0
+      comment percentage  : 0.00
+      blank lines         : 0
+
+   === Element metrics ===
+      all statements           : 1
+      all declarations         : 1
+      maximal construct nesting: 1
+      logical SLOC             : 2
+
+   === Complexity metrics ===
+      statement complexity     : 1
+      expression complexity    : 0
+      cyclomatic complexity    : 1
+      essential complexity     : 1
+      maximum loop nesting     : 0
+      extra exit points        : 0
+
+   Not_Found (function body at lines  190: 194)
+
+   === Code line metrics ===
+      all lines           : 5
+      code lines          : 5
+      comment lines       : 0
+      end-of-line comments: 0
+      comment percentage  : 0.00
+      blank lines         : 0
+
+   === Element metrics ===
+      all statements           : 1
+      all declarations         : 2
+      maximal construct nesting: 1
+      logical SLOC             : 3
+
+   === Complexity metrics ===
+      statement complexity     : 1
+      expression complexity    : 0
+      cyclomatic complexity    : 1
+      essential complexity     : 1
+      maximum loop nesting     : 0
+      extra exit points        : 0
+
+   Not_Found (function body at lines  196: 204)
+
+   === Code line metrics ===
+      all lines           : 9
+      code lines          : 9
+      comment lines       : 0
+      end-of-line comments: 0
+      comment percentage  : 0.00
+      blank lines         : 0
+
+   === Element metrics ===
+      all statements           : 1
+      all declarations         : 3
+      maximal construct nesting: 1
+      logical SLOC             : 4
+
+   === Complexity metrics ===
+      statement complexity     : 1
+      expression complexity    : 0
+      cyclomatic complexity    : 1
+      essential complexity     : 1
+      maximum loop nesting     : 0
+      extra exit points        : 0
+
+   OK (function body at lines  206: 218)
+
+   === Code line metrics ===
+      all lines           : 13
+      code lines          : 13
+      comment lines       : 0
+      end-of-line comments: 0
+      comment percentage  : 0.00
+      blank lines         : 0
+
+   === Element metrics ===
+      all statements           : 1
+      all declarations         : 4
+      maximal construct nesting: 1
+      logical SLOC             : 5
+
+   === Complexity metrics ===
+      statement complexity     : 1
+      expression complexity    : 0
+      cyclomatic complexity    : 1
+      essential complexity     : 1
+      maximum loop nesting     : 0
+      extra exit points        : 0
+
+   OK (function body at lines  220: 228)
+
+   === Code line metrics ===
+      all lines           : 9
+      code lines          : 9
+      comment lines       : 0
+      end-of-line comments: 0
+      comment percentage  : 0.00
+      blank lines         : 0
+
+   === Element metrics ===
+      all statements           : 1
+      all declarations         : 3
+      maximal construct nesting: 1
+      logical SLOC             : 4
+
+   === Complexity metrics ===
+      statement complexity     : 1
+      expression complexity    : 0
+      cyclomatic complexity    : 1
+      essential complexity     : 1
+      maximum loop nesting     : 0
+      extra exit points        : 0
+
+   Output (procedure body at lines  230: 235)
+
+   === Code line metrics ===
+      all lines           : 6
+      code lines          : 6
+      comment lines       : 0
+      end-of-line comments: 0
+      comment percentage  : 0.00
+      blank lines         : 0
+
+   === Element metrics ===
+      all statements           : 1
+      all declarations         : 3
+      maximal construct nesting: 1
+      logical SLOC             : 4
+
+   === Complexity metrics ===
+      statement complexity     : 1
+      expression complexity    : 0
+      cyclomatic complexity    : 1
+      essential complexity     : 1
+      maximum loop nesting     : 0
+      extra exit points        : 0
+
+   Output_HTTP (procedure body at lines  237: 292)
+
+   === Code line metrics ===
+      all lines           : 56
+      code lines          : 51
+      comment lines       : 0
+      end-of-line comments: 0
+      comment percentage  : 0.00
+      blank lines         : 5
+
+   === Element metrics ===
+      all statements           : 22
+      all declarations         : 3
+      maximal construct nesting: 4
+      logical SLOC             : 25
+
+   === Complexity metrics ===
+      statement complexity     : 7
+      expression complexity    : 2
+      cyclomatic complexity    : 9
+      essential complexity     : 4
+      maximum loop nesting     : 0
+      extra exit points        : 3
+
+   Parse (function body at lines  294: 321)
+
+   === Code line metrics ===
+      all lines           : 28
+      code lines          : 26
+      comment lines       : 0
+      end-of-line comments: 0
+      comment percentage  : 0.00
+      blank lines         : 2
+
+   === Element metrics ===
+      all statements           : 10
+      all declarations         : 7
+      maximal construct nesting: 3
+      logical SLOC             : 17
+
+   === Complexity metrics ===
+      statement complexity     : 3
+      expression complexity    : 0
+      cyclomatic complexity    : 3
+      essential complexity     : 2
+      maximum loop nesting     : 1
+      extra exit points        : 0
+
+   Put_Line (procedure body at lines  323: 340)
+
+   === Code line metrics ===
+      all lines           : 18
+      code lines          : 18
+      comment lines       : 0
+      end-of-line comments: 0
+      comment percentage  : 0.00
+      blank lines         : 0
+
+   === Element metrics ===
+      all statements           : 7
+      all declarations         : 5
+      maximal construct nesting: 4
+      logical SLOC             : 12
+
+   === Complexity metrics ===
+      statement complexity     : 4
+      expression complexity    : 0
+      cyclomatic complexity    : 4
+      essential complexity     : 1
+      maximum loop nesting     : 1
+      extra exit points        : 0
+
+   Put_Line (procedure body at lines  342: 371)
+
+   === Code line metrics ===
+      all lines           : 30
+      code lines          : 26
+      comment lines       : 0
+      end-of-line comments: 0
+      comment percentage  : 0.00
+      blank lines         : 4
+
+   === Element metrics ===
+      all statements           : 12
+      all declarations         : 4
+      maximal construct nesting: 2
+      logical SLOC             : 16
+
+   === Complexity metrics ===
+      statement complexity     : 5
+      expression complexity    : 0
+      cyclomatic complexity    : 5
+      essential complexity     : 1
+      maximum loop nesting     : 0
+      extra exit points        : 0
+
+   Redirect (function body at lines  373: 391)
+
+   === Code line metrics ===
+      all lines           : 19
+      code lines          : 19
+      comment lines       : 0
+      end-of-line comments: 0
+      comment percentage  : 0.00
+      blank lines         : 0
+
+   === Element metrics ===
+      all statements           : 3
+      all declarations         : 3
+      maximal construct nesting: 2
+      logical SLOC             : 6
+
+   === Complexity metrics ===
+      statement complexity     : 2
+      expression complexity    : 0
+      cyclomatic complexity    : 2
+      essential complexity     : 2
+      maximum loop nesting     : 0
+      extra exit points        : 1
+
+   Server_Error (function body at lines  393: 401)
+
+   === Code line metrics ===
+      all lines           : 9
+      code lines          : 9
+      comment lines       : 0
+      end-of-line comments: 0
+      comment percentage  : 0.00
+      blank lines         : 0
+
+   === Element metrics ===
+      all statements           : 1
+      all declarations         : 3
+      maximal construct nesting: 1
+      logical SLOC             : 4
+
+   === Complexity metrics ===
+      statement complexity     : 1
+      expression complexity    : 0
+      cyclomatic complexity    : 1
+      essential complexity     : 1
+      maximum loop nesting     : 0
+      extra exit points        : 0
+
+   Status (function body at lines  403: 406)
+
+   === Code line metrics ===
+      all lines           : 4
+      code lines          : 4
+      comment lines       : 0
+      end-of-line comments: 0
+      comment percentage  : 0.00
+      blank lines         : 0
+
+   === Element metrics ===
+      all statements           : 1
+      all declarations         : 2
+      maximal construct nesting: 1
+      logical SLOC             : 3
+
+   === Complexity metrics ===
+      statement complexity     : 1
+      expression complexity    : 0
+      cyclomatic complexity    : 1
+      essential complexity     : 1
+      maximum loop nesting     : 0
+      extra exit points        : 0
+
+   Switch_To_Websocket (function body at lines  408: 517)
+
+   === Code line metrics ===
+      all lines           : 110
+      code lines          : 98
+      comment lines       : 0
+      end-of-line comments: 0
+      comment percentage  : 0.00
+      blank lines         : 12
+
+   === Element metrics ===
+      all statements           : 29
+      all declarations         : 25
+      maximal unit nesting     : 1
+      maximal construct nesting: 6
+      logical SLOC             : 54
+
+   === Complexity metrics ===
+      statement complexity     : 1
+      expression complexity    : 0
+      cyclomatic complexity    : 1
+      essential complexity     : 1
+      maximum loop nesting     : 0
+      extra exit points        : 0
+
+      Accept_Key (function at lines  409: 409)
+         all parameters           : 0
+
+      To_Storage_Elements (function at lines  410: 412)
+         all parameters           : 1
+            IN parameters         : 1
+            OUT parameters        : 0
+            IN OUT parameters     : 0
+
+      Base64 (function at lines  413: 414)
+         all parameters           : 1
+            IN parameters         : 1
+            OUT parameters        : 0
+            IN OUT parameters     : 0
+
+      Accept_Key (function body at lines  416: 424)
+
+      === Code line metrics ===
+         all lines           : 9
+         code lines          : 9
+         comment lines       : 0
+         end-of-line comments: 0
+         comment percentage  : 0.00
+         blank lines         : 0
+
+      === Element metrics ===
+         all statements           : 3
+         all declarations         : 2
+         maximal construct nesting: 1
+         logical SLOC             : 5
+
+      === Complexity metrics ===
+         statement complexity     : 1
+         expression complexity    : 0
+         cyclomatic complexity    : 1
+         essential complexity     : 1
+         maximum loop nesting     : 0
+         extra exit points        : 0
+
+      Base64 (function body at lines  426: 487)
+
+      === Code line metrics ===
+         all lines           : 62
+         code lines          : 55
+         comment lines       : 0
+         end-of-line comments: 0
+         comment percentage  : 0.00
+         blank lines         : 7
+
+      === Element metrics ===
+         all statements           : 21
+         all declarations         : 11
+         maximal construct nesting: 5
+         logical SLOC             : 32
+
+      === Complexity metrics ===
+         statement complexity     : 4
+         expression complexity    : 0
+         cyclomatic complexity    : 4
+         essential complexity     : 4
+         maximum loop nesting     : 1
+         extra exit points        : 2
+
+      To_Storage_Elements (function body at lines  489: 508)
+
+      === Code line metrics ===
+         all lines           : 20
+         code lines          : 19
+         comment lines       : 0
+         end-of-line comments: 0
+         comment percentage  : 0.00
+         blank lines         : 1
+
+      === Element metrics ===
+         all statements           : 4
+         all declarations         : 5
+         maximal construct nesting: 3
+         logical SLOC             : 9
+
+      === Complexity metrics ===
+         statement complexity     : 2
+         expression complexity    : 0
+         cyclomatic complexity    : 2
+         essential complexity     : 1
+         maximum loop nesting     : 1
+         extra exit points        : 0
+
+   Unauthorized (function body at lines  519: 527)
+
+   === Code line metrics ===
+      all lines           : 9
+      code lines          : 9
+      comment lines       : 0
+      end-of-line comments: 0
+      comment percentage  : 0.00
+      blank lines         : 0
+
+   === Element metrics ===
+      all statements           : 1
+      all declarations         : 3
+      maximal construct nesting: 1
+      logical SLOC             : 4
+
+   === Complexity metrics ===
+      statement complexity     : 1
+      expression complexity    : 0
+      cyclomatic complexity    : 1
+      essential complexity     : 1
+      maximum loop nesting     : 0
+      extra exit points        : 0
+
+   Access_Control (package body at lines  529: 555)
+
+   === Code line metrics ===
+      all lines           : 27
+      code lines          : 24
+      comment lines       : 0
+      end-of-line comments: 0
+      comment percentage  : 0.00
+      blank lines         : 3
+
+   === Element metrics ===
+      all statements           : 4
+      all declarations         : 12
+      maximal unit nesting     : 1
+      maximal construct nesting: 2
+      logical SLOC             : 16
+
+      Allow_Credentials (procedure body at lines  530: 534)
+
+      === Code line metrics ===
+         all lines           : 5
+         code lines          : 5
+         comment lines       : 0
+         end-of-line comments: 0
+         comment percentage  : 0.00
+         blank lines         : 0
+
+      === Element metrics ===
+         all statements           : 1
+         all declarations         : 2
+         maximal construct nesting: 1
+         logical SLOC             : 3
+
+      === Complexity metrics ===
+         statement complexity     : 1
+         expression complexity    : 0
+         cyclomatic complexity    : 1
+         essential complexity     : 1
+         maximum loop nesting     : 0
+         extra exit points        : 0
+
+      Allow_Headers (procedure body at lines  536: 540)
+
+      === Code line metrics ===
+         all lines           : 5
+         code lines          : 5
+         comment lines       : 0
+         end-of-line comments: 0
+         comment percentage  : 0.00
+         blank lines         : 0
+
+      === Element metrics ===
+         all statements           : 1
+         all declarations         : 3
+         maximal construct nesting: 1
+         logical SLOC             : 4
+
+      === Complexity metrics ===
+         statement complexity     : 1
+         expression complexity    : 0
+         cyclomatic complexity    : 1
+         essential complexity     : 1
+         maximum loop nesting     : 0
+         extra exit points        : 0
+
+      Allow_Origin (procedure body at lines  542: 547)
+
+      === Code line metrics ===
+         all lines           : 6
+         code lines          : 6
+         comment lines       : 0
+         end-of-line comments: 0
+         comment percentage  : 0.00
+         blank lines         : 0
+
+      === Element metrics ===
+         all statements           : 1
+         all declarations         : 3
+         maximal construct nesting: 1
+         logical SLOC             : 4
+
+      === Complexity metrics ===
+         statement complexity     : 1
+         expression complexity    : 0
+         cyclomatic complexity    : 1
+         essential complexity     : 1
+         maximum loop nesting     : 0
+         extra exit points        : 0
+
+      Max_Age (procedure body at lines  549: 554)
+
+      === Code line metrics ===
+         all lines           : 6
+         code lines          : 6
+         comment lines       : 0
+         end-of-line comments: 0
+         comment percentage  : 0.00
+         blank lines         : 0
+
+      === Element metrics ===
+         all statements           : 1
+         all declarations         : 3
+         maximal construct nesting: 1
+         logical SLOC             : 4
+
+      === Complexity metrics ===
+         statement complexity     : 1
+         expression complexity    : 0
+         cyclomatic complexity    : 1
+         essential complexity     : 1
+         maximum loop nesting     : 0
+         extra exit points        : 0
+
+=== Average complexity metrics ===
+      statement_complexity     :  2.39
+      expression_complexity    :  0.07
+      cyclomatic_complexity    :  2.46
+      essential_complexity     :  1.60
+      max_loop_nesting         :  1.00

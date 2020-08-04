@@ -1,0 +1,45 @@
+V "GNAT Lib v2016"
+P ZX
+
+RN
+RV NO_DYNAMIC_SIZED_OBJECTS
+RV SPARK_05
+
+U bcrypt%b		bcrypt.adb		bcf3cb84 NE OO PK
+W bcrypt_h%s		bcrypt_h.ads		bcrypt_h.ali
+W interfaces%s		interfac.ads		interfac.ali
+W interfaces.c%s	i-c.adb			i-c.ali
+W interfaces.c.strings%s  i-cstrin.adb		i-cstrin.ali
+
+U bcrypt%s		bcrypt.ads		f02bac0c EE NE OO PK
+
+D ada.ads		20160516092928 3ffc8e18 ada%s
+D a-unccon.ads		20160516092931 f9eb8f06 ada.unchecked_conversion%s
+D bcrypt.ads		20170613172603 f02bac0c bcrypt%s
+D bcrypt.adb		20170613172629 c5816f64 bcrypt%b
+D bcrypt_h.ads		20170613170316 e96514a8 bcrypt_h%s
+D interfac.ads		20160516092928 5ab55268 interfaces%s
+D i-c.ads		20160516092927 5421119b interfaces.c%s
+D i-cstrin.ads		20160516092930 341d0ddf interfaces.c.strings%s
+D system.ads		20160516092929 6326c08a system%s
+D s-exctab.ads		20160516092931 54135002 system.exception_table%s
+D s-parame.ads		20160516092932 7e2a0d7f system.parameters%s
+D s-stalib.ads		20160516092931 09bd3940 system.standard_library%s
+X 3 bcrypt.ads
+1K9*BCrypt 3l5 3e11 4|5b14 19l5 19t11
+2V13*Check_PW{boolean} 2>23 2>33 4|6b13 18l8 18t16
+2a23 Password{string} 4|6b23 10r28
+2a33 Hash{string} 4|6b33 11r28
+X 5 bcrypt_h.ads
+7K9*bcrypt_h 4|3w6 3r20 5|98e13
+65V13*bcrypt_checkpw{7|35I9} 4|9s13
+X 6 interfac.ads
+38K9*Interfaces 4|1r6 1r32 2r6 6|184e15
+X 7 i-c.ads
+18K20*C 4|1r17 1r43 2w17 7|230e17
+35I9*int<integer>
+X 8 i-cstrin.ads
+36K22*Strings 4|1w19 1r45 8|106e25
+47P9*chars_ptr
+60V13*New_String{47P9} 4|10s16 11s16
+

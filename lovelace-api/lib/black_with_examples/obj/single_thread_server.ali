@@ -1,0 +1,172 @@
+V "GNAT Lib v2016"
+M P W=b
+A -gnatwa
+A -O2
+A -Wall
+A -gnatA
+A -fstack-check=specific
+A -gnata
+A -gnato
+A -gnatf
+A -gnatwa
+A -gnatVa
+A -gnaty3
+A -gnatya
+A -gnatyb
+A -gnatyc
+A -gnatyd
+A -gnatye
+A -gnatyf
+A -gnatyh
+A -gnatyi
+A -gnatyk
+A -gnatyl
+A -gnatym
+A -gnatyn
+A -gnatyo
+A -gnatyO
+A -gnatyp
+A -gnatyr
+A -gnatys
+A -gnatyt
+A -gnatyu
+A -gnatyx
+A -gnatwe
+A -gnat2005
+A -mtune=generic
+A -march=x86-64
+P SS ZX
+
+RN
+RV NO_EXCEPTION_HANDLERS
+RV NO_EXCEPTIONS
+RV NO_NESTED_FINALIZATION
+RV NO_SECONDARY_STACK
+RV NO_STANDARD_STORAGE_POOLS
+RV NO_STREAMS
+RV NO_DEFAULT_INITIALIZATION
+RV NO_IMPLEMENTATION_PRAGMAS
+RV SPARK_05
+
+U single_thread_server%b  single_thread_server.adb  beea0b01 NE OO SU
+W ada%s			ada.ads			ada.ali
+W ada.exceptions%s	a-except.adb		a-except.ali
+W ada.io_exceptions%s	a-ioexce.ads		a-ioexce.ali
+W ada.streams%s		a-stream.adb		a-stream.ali
+W ada.tags%s		a-tags.adb		a-tags.ali
+W black%s		black.ads		black.ali
+W black.request%s	black-request.adb	black-request.ali
+W black.response%s	black-response.adb	black-response.ali
+W gnat%s		gnat.ads		gnat.ali
+W gnat.sockets%s	g-socket.adb		g-socket.ali
+W gnat.sockets.convenience%s  gnat-sockets-convenience.adb  gnat-sockets-convenience.ali
+W system.secondary_stack%s  s-secsta.adb	s-secsta.ali
+W system.soft_links%s	s-soflin.adb		s-soflin.ali
+
+D ada.ads		20160516092928 3ffc8e18 ada%s
+D a-charac.ads		20160516092931 2d3ec45b ada.characters%s
+D a-chlat1.ads		20160516092930 66457d31 ada.characters.latin_1%s
+D a-contai.ads		20160516092927 61e5e089 ada.containers%s
+D a-conhel.ads		20160516092928 20298884 ada.containers.helpers%s
+D a-coinve.ads		20160516092932 b7300cfa ada.containers.indefinite_vectors%s
+D a-except.ads		20160516092928 291912d5 ada.exceptions%s
+D a-finali.ads		20160516092931 bf4f806b ada.finalization%s
+D a-ioexce.ads		20160516092927 e4a01f64 ada.io_exceptions%s
+D a-iteint.ads		20160516092929 7c7305e9 ada.iterator_interfaces%s
+D a-stream.ads		20160516092929 119b8fb3 ada.streams%s
+D a-string.ads		20160516092930 90ac6797 ada.strings%s
+D a-strmap.ads		20160516092930 e8bb714a ada.strings.maps%s
+D a-strunb.ads		20160516092928 3f91d4c5 ada.strings.unbounded%s
+D a-tags.ads		20160516092932 01f5e3ef ada.tags%s
+D a-unccon.ads		20160516092931 f9eb8f06 ada.unchecked_conversion%s
+D a-uncdea.ads		20160516092931 f15a5ed1 ada.unchecked_deallocation%s
+D black.ads		20170415214444 96edd2a0 black%s
+D black-generic_optional.ads  20170415214444 d5f92c6c black.generic_optional%s
+D black-http.ads	20170415214444 bc718db7 black.http%s
+D black-mime_types.ads	20170415214444 ade84ad0 black.mime_types%s
+D black-optional_http_method.ads  20170415214444 d25fcbe0 black.optional_http_method%s
+D black-optional_natural.ads  20170415214444 b82c289f black.optional_natural%s
+D black-optional_string.ads  20170415214444 ece93279 black.optional_string%s
+D black-parameter.ads	20170415214444 08df136e black.parameter%s
+D black-parameter-vectors.ads  20170415214444 1786c53e black.parameter.vectors%s
+D black-parsing.ads	20170415214444 1af68879 black.parsing%s
+D black-request.ads	20170415214444 3b5ef465 black.request%s
+D black-response.ads	20170415214444 a39906c0 black.response%s
+D gnat.ads		20160516092933 fd2ad2f1 gnat%s
+D g-socket.ads		20160516092932 6b8693a8 gnat.sockets%s
+D gnat-sockets-convenience.ads  20170415214446 573ee291 gnat.sockets.convenience%s
+D interfac.ads		20160516092928 5ab55268 interfaces%s
+D i-c.ads		20160516092927 5421119b interfaces.c%s
+D single_thread_server.adb  20170415214405 fe3597f9 single_thread_server%b
+D system.ads		20160516092929 6326c08a system%s
+D s-atocou.ads		20160516092932 b45c2d8d system.atomic_counters%s
+D s-exctab.ads		20160516092931 54135002 system.exception_table%s
+D s-finmas.ads		20160516092931 7811a767 system.finalization_masters%s
+D s-finroo.ads		20160516092931 4ff27390 system.finalization_root%s
+D s-oscons.ads		20160516132946 4ac7eb08 system.os_constants%s
+D s-parame.ads		20160516092932 7e2a0d7f system.parameters%s
+D s-pooglo.ads		20160516092927 ede33ef8 system.pool_global%s
+D s-secsta.ads		20160516092931 86a2856d system.secondary_stack%s
+D s-soflin.ads		20160516092929 14e1eb6c system.soft_links%s
+D s-stache.ads		20160516092932 a37c21ec system.stack_checking%s
+D s-stalib.ads		20160516092931 09bd3940 system.standard_library%s
+D s-stoele.ads		20160516092932 2dc34a04 system.storage_elements%s
+D s-stoele.adb		20160516092930 ed88f8fb system.storage_elements%b
+D s-stopoo.ads		20160516092928 b16154c2 system.storage_pools%s
+D s-stposu.ads		20160516092927 97a6219c system.storage_pools.subpools%s
+D s-stratt.ads		20160516092927 aedef97e system.stream_attributes%s
+D s-string.ads		20160516092931 8fe54fb7 system.strings%s
+D s-ststop.ads		20160516092928 e6693757 system.strings.stream_ops%s
+D s-traent.ads		20160516092928 005bf670 system.traceback_entries%s
+D s-unstyp.ads		20160516092930 34867c83 system.unsigned_types%s
+X 1 ada.ads
+16K9*Ada 19e8 35|2r3 62r15
+X 9 a-ioexce.ads
+18K13*IO_Exceptions 30e22 35|2w7 62r19
+26X4*End_Error 35|62r33
+X 10 a-iteint.ads
+24h9 Forward_Iterator
+32h9 Reversible_Iterator<24R9[6|75]>
+X 18 black.ads
+1K9*Black 5e10 35|6r3 7r3 26r32 27r25 28r17
+X 28 black-request.ads
+19K15*Request 84e18 35|6w9 26r38 27r31
+20R9*Instance 83e17 35|26r46
+25V13*Resource{string} 35|30s24 37s27 44s27 55s64
+45V13*Parse_HTTP{20R9} 35|27s39
+X 29 black-response.ads
+11K15*Response 124e19 35|7w9 28r23
+12R9*Instance 123e17 35|32r16 39r16 46r16 54r16
+22V13*OK{12R9} 35|41s19 48s19
+23a17 Data{string} 35|41r23 48r23
+28V13*Redirect{12R9} 35|34s19
+28a23 Target{string} 35|34r29
+29b23 Permanent{boolean} 35|35r29
+41V13*Not_Found{12R9} 35|55s33
+41a24 Resource{string} 35|55r44
+X 30 gnat.ads
+34K9*GNAT 37e9 35|4r3 8r3 11r8
+X 31 g-socket.ads
+55K14*Sockets 1263e17 35|4w8 8r8 11r13
+409I9*Socket_Type<integer> 35|12r15 18r23
+476I9*Port_Type<integer>
+502R9*Sock_Addr_Type 505e14 35|19r23
+808U14*Accept_Socket 35|21s10
+809i7 Server{409I9} 35|21r25
+810i7 Socket{409I9} 35|22r25
+811r7 Address{502R9} 35|23r25
+839U14*Close_Socket 35|60s10
+839i28 Socket{409I9} 35|60r24
+1004P9*Stream_Access(11|39R9)
+1007V13*Stream{1004P9} 35|27s51 33s19 40s19 47s19 54s33
+X 32 gnat-sockets-convenience.ads
+10K22*Convenience 21e29 35|8w16 14r16
+15V13*Make_Server{31|409I9} 35|14s28
+15i26 Port{31|476I9} 35|14r41
+X 35 single_thread_server.adb
+10U11*Single_Thread_Server 10b11 66l5 66t25
+12i4 Listener{31|409I9} 14m4 21r36
+18i10 Connection{31|409I9} 22m36 27r59 33r27 40r27 47r27 54r41 60r34
+19r10 Client{31|502R9} 23m36
+26r13 Request{28|20R9} 30r16 37r19 44r19 55r56
+

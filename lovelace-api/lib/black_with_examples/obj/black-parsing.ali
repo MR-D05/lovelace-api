@@ -1,0 +1,227 @@
+V "GNAT Lib v2016"
+A -gnatwa
+A -O2
+A -Wall
+A -gnatA
+A -fstack-check=specific
+A -gnata
+A -gnato
+A -gnatf
+A -gnatwa
+A -gnatVa
+A -gnaty3
+A -gnatya
+A -gnatyb
+A -gnatyc
+A -gnatyd
+A -gnatye
+A -gnatyf
+A -gnatyh
+A -gnatyi
+A -gnatyk
+A -gnatyl
+A -gnatym
+A -gnatyn
+A -gnatyo
+A -gnatyO
+A -gnatyp
+A -gnatyr
+A -gnatys
+A -gnatyt
+A -gnatyu
+A -gnatyx
+A -gnatwe
+A -gnat2005
+A -mtune=generic
+A -march=x86-64
+P SS ZX
+
+RN
+RV NO_DISPATCH
+RV NO_DISPATCHING_CALLS
+RV NO_ENUMERATION_MAPS
+RV NO_EXCEPTION_HANDLERS
+RV NO_EXCEPTION_PROPAGATION
+RV NO_EXCEPTIONS
+RV NO_FIXED_POINT
+RV NO_IMPLICIT_CONDITIONALS
+RV NO_LOCAL_ALLOCATORS
+RV NO_NESTED_FINALIZATION
+RV NO_SECONDARY_STACK
+RV NO_STANDARD_STORAGE_POOLS
+RV NO_DYNAMIC_SIZED_OBJECTS
+RV NO_IMPLEMENTATION_PRAGMAS
+RV NO_ELABORATION_CODE
+RV SPARK_05
+
+U black.parsing%b	black-parsing.adb	124253f8 NE OO PK
+W ada%s			ada.ads			ada.ali
+W ada.exceptions%s	a-except.adb		a-except.ali
+W ada.io_exceptions%s	a-ioexce.ads		a-ioexce.ali
+W ada.strings%s		a-string.ads		a-string.ali
+W ada.strings.fixed%s	a-strfix.adb		a-strfix.ali
+W ada.tags%s		a-tags.adb		a-tags.ali
+W black%s		black.ads		black.ali
+W black.text_io%s	black-text_io.adb	black-text_io.ali
+W interfaces%s		interfac.ads		interfac.ali
+W system.secondary_stack%s  s-secsta.adb	s-secsta.ali
+W system.soft_links%s	s-soflin.adb		s-soflin.ali
+W system.standard_library%s  s-stalib.adb	s-stalib.ali
+W system.val_bool%s	s-valboo.adb		s-valboo.ali
+W system.val_int%s	s-valint.adb		s-valint.ali
+W system.val_real%s	s-valrea.adb		s-valrea.ali
+
+U black.parsing%s	black-parsing.ads	1e608c18 EE OO PF PK
+W ada%s			ada.ads			ada.ali
+W ada.exceptions%s	a-except.adb		a-except.ali
+W ada.streams%s		a-stream.adb		a-stream.ali
+W ada.strings%s		a-string.ads		a-string.ali
+W ada.strings.unbounded%s  a-strunb.adb		a-strunb.ali
+W ada.tags%s		a-tags.adb		a-tags.ali
+W black%s		black.ads		black.ali
+W black.http%s		black-http.adb		black-http.ali
+W system%s		system.ads		system.ali
+W system.secondary_stack%s  s-secsta.adb	s-secsta.ali
+W system.soft_links%s	s-soflin.adb		s-soflin.ali
+W system.standard_library%s  s-stalib.adb	s-stalib.ali
+W system.storage_elements%s  s-stoele.adb	s-stoele.ali
+W system.stream_attributes%s  s-stratt.adb	s-stratt.ali
+W system.strings.stream_ops%s  s-ststop.adb	s-ststop.ali
+
+D ada.ads		20160516092928 3ffc8e18 ada%s
+D a-charac.ads		20160516092931 2d3ec45b ada.characters%s
+D a-chlat1.ads		20160516092930 66457d31 ada.characters.latin_1%s
+D a-except.ads		20160516092928 291912d5 ada.exceptions%s
+D a-finali.ads		20160516092931 bf4f806b ada.finalization%s
+D a-ioexce.ads		20160516092927 e4a01f64 ada.io_exceptions%s
+D a-stream.ads		20160516092929 119b8fb3 ada.streams%s
+D a-string.ads		20160516092930 90ac6797 ada.strings%s
+D a-strfix.ads		20160516092932 d07c346e ada.strings.fixed%s
+D a-strmap.ads		20160516092930 e8bb714a ada.strings.maps%s
+D a-strunb.ads		20160516092928 3f91d4c5 ada.strings.unbounded%s
+D a-tags.ads		20160516092932 01f5e3ef ada.tags%s
+D a-unccon.ads		20160516092931 f9eb8f06 ada.unchecked_conversion%s
+D a-uncdea.ads		20160516092931 f15a5ed1 ada.unchecked_deallocation%s
+D black.ads		20170415214444 96edd2a0 black%s
+D black-http.ads	20170415214444 bc718db7 black.http%s
+D black-parsing.ads	20170415214444 1af68879 black.parsing%s
+D black-parsing.adb	20170415214444 69c526e7 black.parsing%b
+D black-text_io.ads	20170415214444 c501b1fb black.text_io%s
+D interfac.ads		20160516092928 5ab55268 interfaces%s
+D system.ads		20160516092929 6326c08a system%s
+D s-atocou.ads		20160516092932 b45c2d8d system.atomic_counters%s
+D s-exctab.ads		20160516092931 54135002 system.exception_table%s
+D s-finmas.ads		20160516092931 7811a767 system.finalization_masters%s
+D s-finroo.ads		20160516092931 4ff27390 system.finalization_root%s
+D s-memory.ads		20160516092930 597d6634 system.memory%s
+D s-parame.ads		20160516092932 7e2a0d7f system.parameters%s
+D s-secsta.ads		20160516092931 86a2856d system.secondary_stack%s
+D s-soflin.ads		20160516092929 14e1eb6c system.soft_links%s
+D s-stache.ads		20160516092932 a37c21ec system.stack_checking%s
+D s-stalib.ads		20160516092931 09bd3940 system.standard_library%s
+D s-stalib.adb		20160516092926 f2fe2716 system.standard_library%b
+D s-stoele.ads		20160516092932 2dc34a04 system.storage_elements%s
+D s-stoele.adb		20160516092930 ed88f8fb system.storage_elements%b
+D s-stopoo.ads		20160516092928 b16154c2 system.storage_pools%s
+D s-stposu.ads		20160516092927 97a6219c system.storage_pools.subpools%s
+D s-stratt.ads		20160516092927 aedef97e system.stream_attributes%s
+D s-string.ads		20160516092931 8fe54fb7 system.strings%s
+D s-ststop.ads		20160516092928 e6693757 system.strings.stream_ops%s
+D s-traent.ads		20160516092928 005bf670 system.traceback_entries%s
+D s-unstyp.ads		20160516092930 34867c83 system.unsigned_types%s
+D s-valboo.ads		20160516092928 fa926c1e system.val_bool%s
+D s-valint.ads		20160516092930 48a52a3f system.val_int%s
+D s-valrea.ads		20160516092932 fe297711 system.val_real%s
+X 1 ada.ads
+16K9*Ada 19e8 17|2r3 3r3 9r27 13r43 18r45 21r30 26r26 33r26 34r26 39r27 18|2r3
+. 3r3 4r3 11r14 14r43 22r11 27r30 29r11 41r27 43r11 57r45 60r11 63r16 81r11
+. 81r24 81r43 89r26 90r11 90r24
+X 6 a-ioexce.ads
+18K13*IO_Exceptions 30e22 18|2w7 63r20
+26X4*End_Error 18|63r34
+X 7 a-stream.ads
+36K13*Streams 87e16 17|2w7 13r47 18r49 18|14r47 57r49
+39H9*Root_Stream_Type 70e64 17|13r55 18r57 18|14r55 57r57
+X 8 a-string.ads
+16K13*Strings 35e16 17|3r7 9r31 21r34 26r30 33r30 34r30 39r31 18|3w7 4r7
+. 11r18 22r15 27r34 29r15 41r31 43r15 60r15 81r15 81r28 81r47 89r30 90r15
+. 90r28
+33n37*Both{33E9} 18|85r15 95r20
+X 9 a-strfix.ads
+18K21*Fixed 251e22 18|4w15 81r36
+195V13*Trim{string} 18|84s9
+X 11 a-strunb.ads
+76K21*Unbounded 489e26 17|3w15 9r39 21r42 26r38 33r38 34r38 39r39 18|11r26
+. 22r23 27r42 29r23 41r39 43r23 60r23 81r55 89r38 90r36
+79R9*Unbounded_String<5|43R9> 473e14 17|9r49 21r52 26r48 33r48 34r48 39r49
+. 18|27r52 41r49 89r48
+84V13*Length{natural} 18|11s36 84s58 94s37
+100V13*To_String{string} 18|34s38 54s61
+119V14*"&"{79R9} 18|71s57
+139V13*Element{character} 18|70s16
+148V13*Slice{string} 18|24s31 45s36 84s15
+153V13*Unbounded_Slice{79R9} 18|92s20
+230V13*Index{natural} 18|30s44
+378V13*Trim{79R9} 18|92s14
+X 15 black.ads
+1K9*Black 5e10 17|5r3 8r9 42r5 18|6r3 8r14 112r5
+4X4*Protocol_Error 18|33r16 53r13
+X 16 black-http.ads
+1K15*HTTP 28e15 17|5w9 10r26 23r50 18|21r48 24r14 42r26 44r36 47r21 48r23
+. 54r30
+4a4*Version{string} 18|44r41 54r35
+8E9*Statuses 17e35 17|10r31 18|42r31 47r26
+19V13*Status_Line{string} 18|48s28
+21A9*Header_Key<string>(character)<integer> 17|23r55 18|21r53 24r19
+X 17 black-parsing.ads
+8K15*Parsing 15|1k9 17|31E9 42l11 42e18 18|8b20 112l11 112t18
+9V13*Parse{16|8E9} 9>20 18|41b13 55l8 55t13
+9r20 Line{11|79R9} 18|41b20 45r43 54r72
+12R9*Header 14r24 15r38 19r36 31c9 35e17 18|9r38 15r24 58r36
+13V13*Get{12R9} 13^18 18|14b13 19l8 19t11
+13p18 Stream(7|39R9) 18|14b18 18r50
+15V13*End_Of_Header{boolean} 15>28 18|9b13 12l8 12t21 62s10 68s23
+15r28 Item{12R9} 18|9b28 11r44
+17R9*Header_Line 18p14 20r36 21p13 22r26 23p13 23r30 24p13 24r30 25p13 25r30
+. 27p13 27r30 28p13 28r30 29p13 29r30 37c9 41e17 18|21r28 28r26 59r36 80r30
+. 88r30 98r30 103r30 108r30
+18U14*Read 18^20 19=20 20<20 18|57b14 78l8 78t12
+18p20 Stream(7|39R9) 18|57b20 67r53
+19r20 From{12R9} 18|58b20 62r25 65m10 65r32 67m13 68r38 70r25 71m16 71r38
+. 71r59 76r25
+20r20 Item{17R9} 18|59b20 76m10
+21V13*Parse{17R9} 21>20 18|27b13 39l8 39t13 76s18
+21r20 Line{11|79R9} 18|27b20 30r51 34r49 36r36
+23V13*Key{16|21A9} 23>20 18|21b13 25l8 25t11
+23r20 Item{17R9} 18|21b18 24r38 24r52
+24V13*Value{string} 24>20 18|80b13 86l8 86t13 100s34 105s34 110s35
+24r20 Item{17R9} 18|80b20 84r22 84r33 84r66
+25V13*Value{11|79R9} 25>20 18|88b13 96l8 96t13
+25r20 Item{17R9} 18|88b20 92r37 93r37 94r45
+27V13*Value{integer} 27>20 18|98b13 101l8 101t13
+27r20 Item{17R9} 18|98b20 100r29
+28V13*Value{boolean} 28>20 18|103b13 106l8 106t13
+28r20 Item{17R9} 18|103b20 105r29
+29V13*Value{duration} 29>20 18|108b13 111l8 111t13
+29r20 Item{17R9} 18|108b20 110r30
+33r10*Previous_Line{11|79R9} 18|65m15 71m21 71r43 76r30
+34r10*Current_Line{11|79R9} 18|11r49 18m15 65r37 67m18 70r30 71r64
+39r10*Line{11|79R9} 18|24r43 36m18 84r27 84r71 92r42 94r50
+40i10*Split_Position{positive} 18|24r57 37m18 84r38 93r42
+X 18 black-parsing.adb
+30i7 Split_Position{natural} 32r10 37r36
+44a7 Head{string} 45r52
+45a7 Compare{string} 48r13 48r55
+47e11 Status{16|8E9} 48r41 49r20
+X 19 black-text_io.ads
+6K15*Text_IO 18|6w9 18r32 67r35 19|40e18
+37V13*Get_Line{11|79R9} 18|18s40 67s43
+X 21 system.ads
+67M9*Address
+X 26 s-memory.ads
+53V13*Alloc{21|67M9} 103i<c,__gnat_malloc>22
+68U14*Free 104i<c,__gnat_free>22
+76V13*Realloc{21|67M9} 105i<c,__gnat_realloc>22
+X 32 s-stalib.adb
+93U14 Break_Start 94i<c,__gnat_break_start>22
+
