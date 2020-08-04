@@ -1,0 +1,38 @@
+with
+   "gnatcoll",
+   "gnatcoll_postgres";
+
+Project Lovelace_API is
+
+   for Source_Dirs use (
+      ".",
+      "../lib/bcrypt",
+      "../lib/black_with_examples/black/src",
+      "../lib/black_with_examples/libesl/src",
+      "../lib/black_with_examples/gnat-sockets-extras/src",
+      "../lib/black_with_examples/gnat-sockets-extras/src"
+   );
+
+   package Builder is
+      for Default_Switches ("Ada")
+         use ("-m");
+   end Builder;
+
+   package Compiler is
+      for Default_Switches ("Ada")
+         use ("-fstack-check", --  Generate stack checking code (part of Ada)
+            "-gnata",      --  Enable assertions         (part of Ada)
+            "-gnato13",     --  Overflow checking         (part of Ada)
+            "-gnatf",                 --  Full, verbose error messages
+            "-gnatVa",                --  All validity checks
+            "-gnat2012",               --  Use Ada 2012
+            "-O3");                  --  Optimise
+   end Compiler;
+
+   package Linker is
+         for Default_Switches ("Ada") use ("../lib/bcrypt/bcrypt.a");
+   end Linker;
+
+   for Main use ("lovelace_api.adb");
+
+end Lovelace_API;
