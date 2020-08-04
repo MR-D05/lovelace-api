@@ -13,7 +13,7 @@ package body Actions is
             Session_Token : constant JSON_Value := Create_Object;
             Error_JSON_Message : constant JSON_Value := Create_Object;
             Password_Hash : constant String := Get_Password (User);
-            Token : constant String := Get_Token (User);
+            Token : constant String := Retrieve_Token (User);
             Verified : Boolean;
       begin
             Verified := Check_PW (Password, Password_Hash);

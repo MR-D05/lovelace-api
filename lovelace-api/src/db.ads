@@ -10,7 +10,7 @@ package DB is
 
    function Get_Id (User : in String) return Integer;
 
-   function Get_Token (User : in String) return String;
+   function Retrieve_Token (User : in String) return String;
 
    procedure Populate_Token (User : in String);
 

@@ -122,7 +122,8 @@ package body DB is
                   return Token;
             else
                   Populate_Token (User);
-                  Retrieve_Token (User);
+                  Token := Retrieve_Token (User);
+                  return Token;
             end if;
       end Retrieve_Token;
 
