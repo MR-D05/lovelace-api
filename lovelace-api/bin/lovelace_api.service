@@ -1,0 +1,13 @@
+[Unit]
+Description= Minimalist Backend Framework
+After = NetworkManager-wait-online.service network.target network-online.target
+Wants = NetworkManager-wait-online.service network-online.target
+
+[Service]
+Type=simple
+WorkingDirectory=/usr/local/share/lovelace_api/bin
+ExecStart=/usr/local/share/lovelace_api/bin/lovelace_api
+Restart=always
+
+[Install]
+WantedBy=multi-user.target
