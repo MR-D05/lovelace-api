@@ -1,6 +1,6 @@
 # lovelace-api
 
-The intention behind this project is to provide a minimalist framework for building speedy web APIs and app backends. Named "lovelace-api" as it is written in Ada! 
+The intention behind this project is to experience what it's like to design and build a strong foundation for a content delivery application in static and strongly typed language like Ada!
 
 ## Development server
 
