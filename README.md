@@ -1,6 +1,6 @@
 # lovelace-api
 
-The intention behind this project is to experience what it's like to design and build a strong foundation for a content delivery application in static and strongly typed language like Ada!
+The intention behind this project is to experience what it's like to design and build a strong foundation for a content delivery application in a static and strongly typed language like Ada!
 
 ## Development server
 
