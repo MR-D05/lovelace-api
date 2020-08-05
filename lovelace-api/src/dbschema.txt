@@ -1,35 +1,18 @@
-# for Emacs: -*- mode: org; mode: flyspell; fill-column: 79 -*-
+| TABLE      | api_tokens    | api_token |   |  |
+| id         | AUTOINCREMENT | PK        |   |  |
+| token      | TEXT          | NOT NULL  |   |  |
+| user_id    | INTEGER       |           | 0 |  |
+| created_at | TIME          | NULL      |   |  |
+| updated_at | TIME          | NULL      |   |  |
 
-| TABLE      | api_tokens    | api_token |   | The customer for the library |
-| id         | AUTOINCREMENT | PK        |   | Auto-generated id            |
-| token      | TEXT          | NOT NULL  |   | Customers' first name        |
-| user_id    | INTEGER       |           | 0 | Customers' last name         |
-| created_at | TIME          | NULL      |   | Customers' last name         |
-| updated_at | TIME          | NULL      |   | Customers' last name         |
-
-| TABLE                         | users         | user     |   | The contents of the library |
-| id                            | AUTOINCREMENT | PK       |   | Auto-generated id           |
-| email                         | TEXT          | NOT NULL |   | The title of the media      |
-| encrypted_password            | TEXT          | NOT NULL |   | Publication date            |
-| reset_password_token          | TIME          | NULL     |   | Publication date            |
-| reset_password_sent_at        | TIME          | NULL     |   | Publication date            |
-| remember_created_at           | TIME          | NULL     |   | Publication date            |
-| sign_in_count                 | INTEGER       | NULL     | 0 | Publication date            |
-| current_sign_in_at            | TIME          | NULL     |   | Publication date            |
-| last_sign_in_at               | TIME          | NULL     |   | Publication date            |
-| current_sign_in_ip            | TEXT          | NULL     |   | Publication date            |
-| last_sign_in_ip               | TEXT          | NULL     |   | Auto-generated id           |
-| created_at                    | TIME          | NULL     |   | Auto-generated id           |
-| updated_at                    | TIME          | NULL     |   | Auto-generated id           |
-| username                      | TEXT          | NULL     |   | Auto-generated id           |
-| expires_at                    | TIME          | NULL     |   | Auto-generated id           |
-| is_admin                      | BOOLEAN       | NULL     |   | Auto-generated id           |
-| m2m_email_recipients_json     | TEXT          | NULL     |   | Auto-generated id           |
-| mobile_can_read_all           | INTEGER       |          | 0 | Auto-generated id           |
-| m2m_sms_recipients_json       | TEXT          | NULL     |   | Auto-generated id           |
-| can_use_hydrantenplan         | INTEGER       |          | 1 | Auto-generated id           |
-| can_add_sub_users             | INTEGER       |          | 0 | Auto-generated id           |
-| can_access_hydrants_global    | INTEGER       |          | 1 | Auto-generated id           |
-| can_access_gate_valves_global | INTEGER       |          | 1 | Auto-generated id           |
-| super_user_id                 | INTEGER       | NULL     |   | Auto-generated id           |
+| TABLE                         | users         | user     |   |   |
+| id                            | AUTOINCREMENT | PK       |   |   |
+| username                      | TEXT          | NOT NULL |   |   |
+| password_hash                 | TEXT          | NOT NULL |   |   |
+| reset_password_token          | TEXT          | NULL     |   |   |
+| reset_password_sent_at        | TIME          | NULL     |   |   |
+| remember_created_at           | TIME          | NULL     |   |   |
+| created_at                    | TIME          | NULL     |   |   |
+| updated_at                    | TIME          | NULL     |   |   |
+| is_admin                      | BOOLEAN       | NULL     |   |   |
 
