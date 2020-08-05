@@ -1,6 +1,6 @@
 # lovelace-api
 
-The intention behind this project is to experience what it's like to design and build a strong foundation for a content delivery application in static and strongly typed language like Ada!
+The intention behind this project is to experience what it's like to design and build a strong foundation for a content delivery application in a static and strongly typed language like Ada!
 
 ## Development server
 
@@ -75,7 +75,7 @@ Now, navigate to the scripts directory and run:
 ./post.rb post.json
 ```
 
-You should see some logging output in the first shell, and a valid response with complete with authentication token in the shell from which you issued the curl request!
+You should see some logging output in the first shell, and a valid response complete with authentication token in the shell from which you issued the curl request!
 
 ## Going further
 
