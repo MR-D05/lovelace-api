@@ -75,7 +75,7 @@ Now, navigate to the scripts directory and run:
 ./post.rb post.json
 ```
 
-You should see some logging output in the first shell, and a valid response with complete with authentication token in the shell from which you issued the curl request!
+You should see some logging output in the first shell, and a valid response complete with authentication token in the shell from which you issued the curl request!
 
 ## Going further
 
